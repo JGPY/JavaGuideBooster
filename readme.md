@@ -6,24 +6,24 @@
 
 ---
 #### Java基础
-&ensp;&ensp; \* JVM相关 <br>
-&ensp;&ensp; \- [说一下Java的垃圾回收机制]() <br>
-&ensp;&ensp; \- [JVM的内存布局内存模型]() <br>
-&ensp;&ensp; \- [JVM的4种引用和使用场景]() <br>
+&ensp;&ensp; ♦ JVM相关 <br>
+&ensp;&ensp;&ensp;&ensp; • [说一下Java的垃圾回收机制]() <br>
+&ensp;&ensp;&ensp;&ensp; • [JVM的内存布局内存模型]() <br>
+&ensp;&ensp;&ensp;&ensp; • [JVM的4种引用和使用场景]() <br>
 
 
 #### 多线程和并发
-- [什么是缓存一致性问题,如何解决呢]()
+&ensp;&ensp; • [什么是缓存一致性问题,如何解决呢]()
 
 #### 数据库
-- [进程间的通信方式,进程调度方法]()
+&ensp;&ensp; • [进程间的通信方式,进程调度方法]()
 
 #### 操作系统
-- [优化查询的方法]()
+&ensp;&ensp; • [优化查询的方法]()
 
 #### 计算机网络
-&ensp;&ensp; * TCP/IP相关的问题
-- [OSI与TCP IP各层的结构与功能,都有哪些协议,协 所占端口号]()
+&ensp;&ensp; ♦ TCP/IP相关的问题 <br>
+&ensp;&ensp;&ensp;&ensp; • [OSI与TCP IP各层的结构与功能,都有哪些协议,协 所占端口号]()
 
 ### <a name="2">Java工程师面试突击</a>
 
