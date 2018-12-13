@@ -6,25 +6,47 @@
 
 ---
 #### Java基础
-&ensp;&ensp; ♦ JVM相关 <br>
+&ensp;&ensp; ♦ [JVM相关]() <br>
 &ensp;&ensp;&ensp;&ensp; • [说一下Java的垃圾回收机制]() <br>
 &ensp;&ensp;&ensp;&ensp; • [JVM的内存布局内存模型]() <br>
 &ensp;&ensp;&ensp;&ensp; • [JVM的4种引用和使用场景]() <br>
-
+&ensp;&ensp; ♦ [ava中的集合类]() <br>
+&ensp;&ensp; ♦ [设计模式相关]() <br>
+&ensp;&ensp; ♦ [Java语言相关]() <br>
+&ensp;&ensp; ♦ [Java基础专题]() <br>
 
 #### 多线程和并发
-&ensp;&ensp; • [什么是缓存一致性问题,如何解决呢]()
+&ensp;&ensp; ♦ [多线程和并发专题]() <br>
+&ensp;&ensp;&ensp;&ensp; • [什么是缓存一致性问题,如何解决呢]() <br>
+&ensp;&ensp; ♦ [并发包的问题]() <br>
+&ensp;&ensp; ♦ [阻塞队列相关的问题]() <br>
+&ensp;&ensp; ♦ [多线程相关的问题]() <br>
+&ensp;&ensp; ♦ [其他问题]() <br>
 
 #### 数据库
-&ensp;&ensp; • [进程间的通信方式,进程调度方法]()
+&ensp;&ensp; ♦ [多线程和并发专题]() <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
 
 #### 操作系统
-&ensp;&ensp; • [优化查询的方法]()
+&ensp;&ensp; ♦ [数据库专题]() <br>
+&ensp;&ensp; ♦ [sql 注入的问题]() <br>
+&ensp;&ensp; ♦ [涉及连接的问题]() <br>
+&ensp;&ensp; ♦ [涉及存储过程的问题]() <br>
+&ensp;&ensp; ♦ [涉及范式的问题]() <br>
+&ensp;&ensp; ♦ [涉及事务的问题]() <br>
+&ensp;&ensp; ♦ [涉及锁的问题]() <br>
+&ensp;&ensp; ♦ [涉及命令的问题]() <br>
+&ensp;&ensp; ♦ [涉及索引的问题]() <br>
+&ensp;&ensp; ♦ [涉及存储引擎的问题]() <br>
+&ensp;&ensp; ♦ [其他问题]() <br>
 
 #### 计算机网络
-&ensp;&ensp; ♦ TCP/IP相关的问题 <br>
-&ensp;&ensp;&ensp;&ensp; • [OSI与TCP IP各层的结构与功能,都有哪些协议,协 所占端口号]()
-
+&ensp;&ensp; ♦ [TCP/IP相关的问题]() <br>
+&ensp;&ensp;&ensp;&ensp; • [OSI与TCP/IP各层的结构与功能,都有哪些协议,协所占端口号]() <br>
+&ensp;&ensp; ♦ [HTTP 协议相关的问题]() <br>
+&ensp;&ensp; ♦ [安全相关的问题]() <br>
+&ensp;&ensp; ♦ [Socket 编程]() <br>
+&ensp;&ensp; ♦ [其他相关的问题]() <br>
 ### <a name="2">Java工程师面试突击</a>
 
 --- 
