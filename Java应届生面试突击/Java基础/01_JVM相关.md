@@ -129,7 +129,7 @@ PhantomReference pr = new PhantomReference (object, queue); <br>
 引用计数法与可达性分析算法。
 
 ### <a name="6">6. 堆里面的分区和各自的特点。</a>
-* 年轻代: <br>
+年轻代: <br>
 &ensp;&ensp;&ensp;&ensp;
 年轻代又进一步可以划分为一个伊甸园(Eden)和两个存活区
 (Survivor space),伊甸园是进行内存分配的地方,是一块连续的空闲内存区域,
@@ -142,17 +142,16 @@ PhantomReference pr = new PhantomReference (object, queue); <br>
 园中剩下的都是需要被回收的对象,只对这两个区域进行清除即可,两个存活
 区是交替使用,循环往复,在下一次垃圾回收时,之前被清除的存活区又用来
 放置存活下来的对象了。一般来说,年轻代区域较小,而且大部分对象是需要
-进行清除的,采用“复制算法”进行垃圾回收。
-* 年老代: <br>
+进行清除的,采用“复制算法”进行垃圾回收。 <br>
+年老代: <br>
 &ensp;&ensp;&ensp;&ensp;
 在年轻代中经历了 N 次回收后仍然没有被清除的对象,就会被放
 到年老代中,都是生命周期较长的对象。对于年老代和永久代,采用一种称为
 “标记-清除-压缩(Mark-Sweep-Compact)”的算法。标记的过程是找出当前
 还存活的对象,并进行标记;清除则是遍历整个年老区,找到已标记的对象并
 进行清除;而压缩则是把存活的对象移动到整个内存区的一端,使得另一端是
-一块连续的空间,方便进行内存分配和复制。
-
- (1) Minor GC: <br>
+一块连续的空间,方便进行内存分配和复制。 <br>
+(1) Minor GC: <br>
 &ensp;&ensp;&ensp;&ensp;
     当新对象生成,但在Eden申请空间失败时就会触发 Minor GC,对 Enden 区
     进行 GC,清除掉非存活的对象,并且把存活的对象移动到 Survivor 区中的其
@@ -386,28 +385,28 @@ HashMap 中保存的情况,最后会生成很多重复的对象。所有的内�
 
 ### <a name="14">14. JVM 常见的启动参数。</a> 
    &ensp;&ensp;&ensp;&ensp;
-    -Xms:设置堆的最小值。<br>
+    -Xms: 设置堆的最小值。<br>
     &ensp;&ensp;&ensp;&ensp;
-    -Xmx:设置堆的最大值。<br>
+    -Xmx: 设置堆的最大值。<br>
     &ensp;&ensp;&ensp;&ensp;
     -Xmn: 设置新生代的大小。<br>
     &ensp;&ensp;&ensp;&ensp;
-    -Xss:设置每个线程的栈大小。<br>
+    -Xss: 设置每个线程的栈大小。<br>
     &ensp;&ensp;&ensp;&ensp;
-    -XX:NewSize:设置新生代的初始值。<br>
+    -XX:NewSize: 设置新生代的初始值。<br>
     &ensp;&ensp;&ensp;&ensp;
-    -XX:MaxNewSize :设置新生代的最大值。<br>
+    -XX:MaxNewSize: 设置新生代的最大值。<br>
     &ensp;&ensp;&ensp;&ensp;
-    -XX:PermSize:设置永久代的初始值。<br>
+    -XX:PermSize: 设置永久代的初始值。<br>
     &ensp;&ensp;&ensp;&ensp;
-    -XX:MaxPermSize:设置永久代的最大值。<br>
+    -XX:MaxPermSize: 设置永久代的最大值。<br>
     &ensp;&ensp;&ensp;&ensp;
-    -XX:SurvivorRatio:年轻代中 Eden 区与 Survivor 区的大小比值。<br>
+    -XX:SurvivorRatio: 年轻代中 Eden 区与 Survivor 区的大小比值。<br>
     &ensp;&ensp;&ensp;&ensp; 
     -XX:PretenureSizeThreshold: 令大于这个设置值的对象直接在老年代分配。<br>
 
 ### <a name="15">15. 说下几种常用的内存调试工具: jps、 jmap、 jhat、 jstack、 jconsole,jstat。</a> 
-Java 内存泄露的问题调查定位:jmap,jstack 的使用等等。<br>
+Java 内存泄露的问题调查定位: jmap,jstack 的使用等等。<br>
     &ensp;&ensp;&ensp;&ensp;
     jps: 查看虚拟机进程的状况,如进程 ID。<br>
     &ensp;&ensp;&ensp;&ensp;
