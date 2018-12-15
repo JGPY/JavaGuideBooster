@@ -1,9 +1,8 @@
 # JavaGuide (还在整理中，请耐心等待，如果急需相关资料，请邮箱联系我)
-<a href="#1"><<Java应届生面试突击>></a> <br>
-<a href="#2"><<Java工程师面试突击>></a>
+<a href="#1">Java应届生面试突击</a> <br>
+<a href="#2">Java工程师面试突击</a>
 
-# 目录
-<a href="#1"><<Java应届生面试突击>></a> <br>
+### <a href="#1">Java应届生面试突击_章节目录</a> <br>
 &ensp;&ensp; <a href="#11">Java基础</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#111">JVM相关</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#112">Java中的集合类</a> <br>
@@ -41,14 +40,15 @@
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#15">Socket 编程</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#15">其他相关的问题</a> <br>
 
-<a href="#2"><<Java工程师面试突击>></a> <br>
+### <a href="#2">Java工程师面试突击_章节目录</a> <br>
 &ensp;&ensp;  <a href="#21">消息中间件</a> <br>
 &ensp;&ensp;  <a href="#22">分布式搜索</a> <br>
 &ensp;&ensp;  <a href="#23">分布式缓存</a> <br>
 &ensp;&ensp;  <a href="#24">分布式系统</a> <br>
 &ensp;&ensp;  <a href="#25">数据库</a> <br>
 
-### <a name="1">Java应届生面试突击</a>
+
+### <a name="1">Java应届生面试突击_问题目录</a>
 
 ---
 #### <a name="11">Java基础</a>
@@ -229,7 +229,9 @@
 &ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
 &ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
 
-### <a name="2">Java工程师面试突击</a>
+
+### <a name="2">Java工程师面试突击_问题目录</a>
+
 --- 
 #### <a name="21">消息中间件</a>
 - [如何进行消息队列的选型]()

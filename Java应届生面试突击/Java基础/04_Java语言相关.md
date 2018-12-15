@@ -76,6 +76,6 @@
 ### <a name="32">32. 继承和组合区别。</a>
 ### <a name="33">33. final finally finalize 的区别。</a>
 ### <a name="34">34. JDK1.7 和 1.8 的区别。</a>
-### <a name="35">35. List<String>能否转为List<Object>?能否List<Object>list=newArrayList<String>()?List<String>list=new ArrayList<Object>()?原因?</a>
+### <a name="35">35. List<String>能否转为List<Object>?能否List<Object>list=newArrayList<String>()?List<String>list=new ArrayList<Object>()?原因? </a>
 ### <a name="36">36. 泛型的好处?</a>
 
