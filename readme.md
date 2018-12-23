@@ -32,6 +32,7 @@
 
 &ensp;&ensp;  <a href="#14">操作系统</a> <br> 
 &ensp;&ensp; ♦ <a href="#141">操作系统专题</a> <br>
+&ensp;&ensp; ♦ <a href="#141">linux系统常用命令</a> <br>
 
 &ensp;&ensp;  <a href="#15">计算机网络</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#15">TCP/IP相关的问题</a> <br>
