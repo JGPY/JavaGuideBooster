@@ -161,58 +161,75 @@
 &ensp;&ensp;&ensp;&ensp; • []() <br>
 &ensp;&ensp;&ensp;&ensp; • []() <br>
 &ensp;&ensp;&ensp;&ensp; • []() <br>
-&ensp;&ensp; ♦ <a name="122">并发包的问题[](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/多线程和并发/并发包的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="123">阻塞队列相关的问题[](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/多线程和并发/阻塞队列相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="124">多线程相关的问题[](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/多线程和并发/多线程相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="125">其他问题[](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/多线程和并发/其他问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
+&ensp;&ensp; ♦ <a name="122">[并发包的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/多线程和并发/并发包的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
+&ensp;&ensp; ♦ <a name="123">[阻塞队列相关的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/多线程和并发/阻塞队列相关的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
+&ensp;&ensp; ♦ <a name="124">[多线程相关的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/多线程和并发/多线程相关的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
+&ensp;&ensp; ♦ <a name="125">[其他问题z](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/多线程和并发/其他问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
 
-#### <a name="13">[数据库](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库)</a>
-&ensp;&ensp; ♦ <a name="131">[数据库专题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/数据库专题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="132">[sql注入的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/sql注入的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="133">[连接问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="134">[存储过程相关问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/存储过程相关问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="135">[范式问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/范式问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="136">[事务问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/事务问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="137">[锁的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/锁的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="138">[命令问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/命令问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="139">[索引问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/索引问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="1310">[存储引擎问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/存储引擎问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="1322">[其他问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/数据库/其他问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
+#### <a name="13">[数据库](./Java应届生面试突击/数据库)</a>
+&ensp;&ensp; ♦ <a name="131">[数据库专题](./Java应届生面试突击/数据库/01_数据库专题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [优化查询的方法？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [如果有一个特别大的访问量到数据库上，怎么做优化？]() <br>
+&ensp;&ensp; ♦ <a name="132">[sql注入的问题](./Java应届生面试突击/数据库/02_sql注入的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [SQL语句应该考虑哪些安全问题？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [什么叫SQL注入，如何防止？请举例说明。]() <br>
+&ensp;&ensp; ♦ <a name="133">[连接问题](./Java应届生面试突击/数据库/03_涉及连接的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [内连接与外链接的区别？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [inner join 和 left join 的性能比较。]() <br>
+&ensp;&ensp;&ensp;&ensp; • [联合查询的索引使用]() <br>
+&ensp;&ensp;&ensp;&ensp; • [数据库中两个表求交集、并集、差集。]() <br>
+&ensp;&ensp; ♦ <a name="134">[存储过程相关问题](./Java应届生面试突击/数据库/04_涉及存储过程的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [存储过程的概念以及优缺点是什么。]() <br>
+&ensp;&ensp; ♦ <a name="135">[范式问题](./Java应届生面试突击/数据库/05_涉及范式的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [数据库的三级范式？]() <br>
+&ensp;&ensp; ♦ <a name="136">[事务问题](./Java应届生面试突击/数据库/06_涉及事务的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [数据库事务正确执行的四个基本要素（事务的四个属性）。]() <br>
+&ensp;&ensp;&ensp;&ensp; • [并发事务带来的问题。]() <br>
+&ensp;&ensp;&ensp;&ensp; • [并发控制的方式（如何解决并发问题）]() <br>
+&ensp;&ensp;&ensp;&ensp; • [数据库事物的隔离级别介绍、举例说明。]() <br>
+&ensp;&ensp;&ensp;&ensp; • [MySQL事务控制语句]() <br>
+&ensp;&ensp;&ensp;&ensp; • [数据库怎么保证数据的一致性。]() <br>
+&ensp;&ensp; ♦ <a name="137">[锁的问题](./Java应届生面试突击/数据库/07_涉及锁的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [如何并发访问数据库]() <br>
+&ensp;&ensp;&ensp;&ensp; • [说下数据库的锁机制，数据库中都有哪些锁。]() <br>
+&ensp;&ensp;&ensp;&ensp; • [MySQL锁的粒度（即锁的级别）]() <br>
+&ensp;&ensp;&ensp;&ensp; • [乐观锁和悲观锁的概念，实现方式和使用场景。]() <br>
+&ensp;&ensp; ♦ <a name="138">[命令问题](./Java应届生面试突击/数据库/08_涉及命令的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [truncate 与 delete 的区别是什么？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [SQL的授权语句和收回权限语句？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [怎么新加一行记录，怎么添加一个列字段，修改列？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [Select Count(*)和Select Count(数字)以及Select Count(column)区别。]() <br>
+&ensp;&ensp;&ensp;&ensp; • [EXISTS关键字的使用方法？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [例题]() <br>
+&ensp;&ensp;&ensp;&ensp; • [判断表的字段值是否为空]() <br>
+
+&ensp;&ensp; ♦ <a name="139">[索引问题](./Java应届生面试突击/数据库/09_涉及索引的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [索引的优缺点]() <br>
+&ensp;&ensp;&ensp;&ensp; • [索引有哪些？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [数据库索引的原理（实现）]() <br>
+&ensp;&ensp;&ensp;&ensp; • [MySQL的B+树索引的优点？为什么不用二叉树？B-树和B+树为什么比红黑树更合适？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [建索引的几大原则]() <br>
+&ensp;&ensp; ♦ <a name="1310">[存储引擎问题](./Java应届生面试突击/数据库/10_涉及存储引擎的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [MySQL中Mylsam与InnoDB的区别，至少5点。]() <br>
+&ensp;&ensp;&ensp;&ensp; • [例题]() <br>
+&ensp;&ensp; ♦ <a name="1322">[其他问题](./Java应届生面试突击/数据库/11_其他问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [如果在数据库上进行误操作该怎么处理。]() <br>
+&ensp;&ensp;&ensp;&ensp; • [数据库在进行水平分表之后，SQL分页查询该怎么进行？分表之后想让一个id多个表示自增的，效率实现。数据库中的分页查询怎么写？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [关系型数据库和非关系型数据库的区别]() <br>
+&ensp;&ensp;&ensp;&ensp; • [数据库连接池的原理？连接池使用什么数据结构实现？实现连接池？]() <br>
 
 #### <a name="14">[操作系统](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统)</a>
 &ensp;&ensp; ♦ <a name="141">[操作系统专题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/操作系统专题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • []() <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
+&ensp;&ensp;&ensp;&ensp; • []() <br>
 
 #### <a name="15">[计算机网络](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/计算机网络.md)</a>
 &ensp;&ensp; ♦ <a name="151">[TCP/IP相关的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/TCP_IP相关的问题.md)</a> <br>
