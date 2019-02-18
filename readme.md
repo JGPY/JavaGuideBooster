@@ -1,6 +1,9 @@
 # JavaGuide (还在整理中，请耐心等待，如果急需相关资料，请邮箱联系我)
 <a href="#1">Java应届生面试突击</a> <br>
-<a href="#2">Java工程师面试突击</a>
+<a href="#2">Java工程师面试突击</a> <br>
+
+<a href="#3">Java应届生算法突击</a>
+
 
 ### <a href="#1">Java应届生面试突击_章节目录</a> <br>
 &ensp;&ensp; <a href="#11">Java基础</a> <br>
@@ -178,6 +181,7 @@
 &ensp;&ensp; ♦ <a name="131">[数据库专题](./Java应届生面试突击/数据库/01_数据库专题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • [优化查询的方法？]() <br>
 &ensp;&ensp;&ensp;&ensp; • [如果有一个特别大的访问量到数据库上，怎么做优化？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [数据库分表， 分区， 分库]() <br>
 &ensp;&ensp; ♦ <a name="132">[sql注入的问题](./Java应届生面试突击/数据库/02_sql注入的问题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • [SQL语句应该考虑哪些安全问题？]() <br>
 &ensp;&ensp;&ensp;&ensp; • [什么叫SQL注入，如何防止？请举例说明。]() <br>
