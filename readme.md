@@ -243,8 +243,8 @@
 &ensp;&ensp;&ensp;&ensp; • [哲学家进餐问题的无死锁算法]() <br>
 &ensp;&ensp;&ensp;&ensp; • [操作系统的内存管理]() <br>
 &ensp;&ensp; ♦ <a name="141">[linux系统常用命令](./Java应届生面试突击/操作系统/02_linux系统常用命令.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • []() <br>
-&ensp;&ensp;&ensp;&ensp; • []() <br>
+&ensp;&ensp;&ensp;&ensp; • [linux下如何检查服务器异常](https://blog.csdn.net/qq_21508727/article/details/83544199) <br>
+&ensp;&ensp;&ensp;&ensp; • [linux系统任务的后台运行和关闭、查看后台任务等](https://blog.csdn.net/qq_21508727/article/details/85198912) <br>
 
 #### <a name="15">[计算机网络](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/计算机网络.md)</a>
 &ensp;&ensp; ♦ <a name="151">[TCP/IP相关的问题](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md)</a> <br>
