@@ -1,9 +1,11 @@
 # JavaGuide (还在整理中，请耐心等待，如果急需相关资料，请邮箱联系我)
 <a href="#1">Java应届生面试突击</a> <br>
+<a href="#3">Java应届生算法突击</a> <br>
+
 <a href="#2">Java工程师面试突击</a> <br>
 
-<a href="#3">Java应届生算法突击</a>
 
+---
 
 ### <a href="#1">Java应届生面试突击_章节目录</a> <br>
 &ensp;&ensp; <a href="#11">Java基础</a> <br>
@@ -129,7 +131,7 @@
 &ensp;&ensp;&ensp;&ensp; • [32. 继承和组合区别。](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/04_Java语言相关.md/#32) <br>
 &ensp;&ensp;&ensp;&ensp; • [33. final finally finalize 的区别。](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/04_Java语言相关.md/#33) <br>
 &ensp;&ensp;&ensp;&ensp; • [34. JDK1.7 和 1.8 的区别。](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/04_Java语言相关.md/#34) <br>
-&ensp;&ensp;&ensp;&ensp; • [35. List<String>能否转为List<Object>?能否List<Object>list=newArrayList<String>()?List<String>list=new ArrayList<Object>()?原因?](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/04_Java语言相关.md/#35)<br>
+&ensp;&ensp;&ensp;&ensp; • [35. List\<String>能否转为List\<Object>?能否List\<Object>list=newArrayList\<String>()?List\<String>list=new ArrayList\<Object>()?原因?](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/04_Java语言相关.md/#35) <br>
 &ensp;&ensp;&ensp;&ensp; • [36. 泛型的好处?](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/04_Java语言相关.md/#36) <br>
 
 &ensp;&ensp; ♦ <a name="115">[Java基础专题](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/05_Java基础专题.md)</a> <br>
@@ -145,7 +147,7 @@
 &ensp;&ensp;&ensp;&ensp; • [10. 什么是泛型,为什么要使用以及类型擦除。](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/05_Java基础专题.md/#10) <br>
 &ensp;&ensp;&ensp;&ensp; • [11. Java中的 NIO,BIO 分别是什么。NIO 主要用来解决什么问题。](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/05_Java基础专题.md/#11) <br>
 &ensp;&ensp;&ensp;&ensp; • [12. 面向对象的 6 个基本原则(设计模式的 6 个基本原则)。](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/05_Java基础专题.md/#12) <br>
-&ensp;&ensp;&ensp;&ensp; • [13. JDK 源码中用到的设计模式 。](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/05_Java基础专题.md/#13) <br>              
+&ensp;&ensp;&ensp;&ensp; • [13. JDK 源码中用到的设计模式。](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/05_Java基础专题.md/#13) <br>              
 &ensp;&ensp;&ensp;&ensp; • [14. 执行 Student s = new Student();在内存中做了哪些事情?](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/05_Java基础专题.md/#14) <br>
 &ensp;&ensp;&ensp;&ensp; • [15. 你知道的开源软件有哪些?](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/05_Java基础专题.md/#15) <br>
 &ensp;&ensp;&ensp;&ensp; • [16. String 型变量如何转成 int 型变量,反过来呢?](https://github.com/JGPY/JavaGuide/blob/master/Java应届生面试突击/Java基础/05_Java基础专题.md/#16) <br>
@@ -232,35 +234,89 @@
 
 #### <a name="14">[操作系统](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统)</a>
 &ensp;&ensp; ♦ <a name="141">[操作系统专题](./Java应届生面试突击/操作系统/01_操作系统专题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • [进程间的通信方式(IPC)?进程调度方法]() <br>
-&ensp;&ensp;&ensp;&ensp; • [线程间的通信方式？]() <br>
-&ensp;&ensp;&ensp;&ensp; • [线程同步的机制]() <br>
+&ensp;&ensp;&ensp;&ensp; • [进程间的通信方式(IPC)?进程调度方法](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
+&ensp;&ensp;&ensp;&ensp; • [线程间的通信方式？](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
+&ensp;&ensp;&ensp;&ensp; • [线程同步的机制](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
 &ensp;&ensp;&ensp;&ensp; • [操作系统由哪几部分组成？]() <br>
-&ensp;&ensp;&ensp;&ensp; • [用户态和系统态是什么时候进行切换的？６４位操作系统和３２位操作系统有什么区别和优点]() <br>
-&ensp;&ensp;&ensp;&ensp; • [选择一个你熟悉的磁盘臂调度算法进行简单描述]() <br>
-&ensp;&ensp;&ensp;&ensp; • [进程和线程的区别?]() <br>
-&ensp;&ensp;&ensp;&ensp; • [操作系统的换页方法]() <br>
-&ensp;&ensp;&ensp;&ensp; • [哲学家进餐问题的无死锁算法]() <br>
-&ensp;&ensp;&ensp;&ensp; • [操作系统的内存管理]() <br>
+&ensp;&ensp;&ensp;&ensp; • [用户态和系统态是什么时候进行切换的？６４位操作系统和３２位操作系统有什么区别和优点](./Java应届生面试突击/操作系统/01_操作系统专题.md) <br>
+&ensp;&ensp;&ensp;&ensp; • [选择一个你熟悉的磁盘臂调度算法进行简单描述](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
+&ensp;&ensp;&ensp;&ensp; • [进程和线程的区别?](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
+&ensp;&ensp;&ensp;&ensp; • [操作系统的换页方法](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
+&ensp;&ensp;&ensp;&ensp; • [哲学家进餐问题的无死锁算法](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
+&ensp;&ensp;&ensp;&ensp; • [操作系统的内存管理](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
 &ensp;&ensp; ♦ <a name="141">[linux系统常用命令](./Java应届生面试突击/操作系统/02_linux系统常用命令.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • [linux下如何检查服务器异常](https://blog.csdn.net/qq_21508727/article/details/83544199) <br>
 &ensp;&ensp;&ensp;&ensp; • [linux系统任务的后台运行和关闭、查看后台任务等](https://blog.csdn.net/qq_21508727/article/details/85198912) <br>
 
 #### <a name="15">[计算机网络](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/计算机网络.md)</a>
 &ensp;&ensp; ♦ <a name="151">[TCP/IP相关的问题](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="152">[HTTP协议相关的问题](./master/Java应届生面试突击/操作系统/HTTP协议相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
+&ensp;&ensp;&ensp;&ensp; • [OSI 与 TCP/IP 各层的结构与功能,都有哪些协议,协议所占端口号。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [IP 地址的分类。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [画出三次握手和四次挥手的图(状态转移图)。TCP 为什么三次握手,四次挥手?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [为什么要 4 次挥手?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [建立连接的第二个 syn 作用是啥?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [time_wait 状态产生的原因?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [如果网络连接中出现大量 TIME_WAIT 状态所带来的危害?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [如何消除大量 TCP 短连接引发的 TIME_WAIT?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TIME_WAIT 的时间?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [当关闭连接时最后一个 ACK 丢失怎么办?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP如何保证可靠传输?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP 建立连接之后怎么保持连接(检测连接断没断)?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP 三次握手有哪些漏洞?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [扩展:ddos 攻击的原理,如何防止 ddos 攻击?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP 存在的缺陷有哪些?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [三次握手与 accept()函数的关系?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [在三次握手和四次挥手协议中,客户端和服务器端各用到什么函数(这里涉及到底层的 socket 知识)。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [listen 的真正目的?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [如果客户端发起握手请求,服务端无法立刻建立连接应该回应什么?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP 与 UDP 的区别(或各自的优缺点),以及各自的用途和使用领域。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP 面向字节流,UDP 是面向报文的。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP 只能单播,不能发送广播和组播;UDP 可以广播和组播。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [为什么 TCP 比 UDP 安全,但是还有很多用 UDP?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [UDP 为何快?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP 如何实现流量控制和拥塞控制。tcp 是怎么做错误处理的?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP 滑动窗口协议,窗口过大或过小有什么影响?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [说下 TCP 的黏包?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [TCP 头部有哪些字段?]()<br>
+&ensp;&ensp; ♦ <a name="152">[HTTP协议相关的问题](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [Http 的请求报文结构和响应报文结构。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [常见 HTTP 首部字段。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [Http 状态码含义。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [http 中有关缓存的首部字段有哪些?http 的浏览器缓存机制。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [Http1.1 和 Http1.0 的区别。(HTTP1.1 版本的 4 个新特性)]()<br>
+&ensp;&ensp;&ensp;&ensp; • [常用的 HTTP 方法有哪些?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [http 的请求方式 get 和 post 的区别。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [为什么 HTTP 是无状态的?如何保持状态(会话跟踪技术、状态管理)?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [Http 的短连接和长连接的原理。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [HTTP 的特点。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [http 的安全问题。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [Https 的作用。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [浏览器和服务器在基于 https 进行请求链接到数据传输过程中,用到了哪些技术?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [讲下 Http 协议。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [http 和 socket 的区别,两个协议哪个更高效一点。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [HTTP 与 HTTPS 的区别。]()<br>
 &ensp;&ensp; ♦ <a name="153">[安全相关的问题](./Java应届生面试突击/操作系统/安全相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
+&ensp;&ensp;&ensp;&ensp; • [攻击网站的方法和原理。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [怎么确保数据传输过程中的安全性?]()<br>
 &ensp;&ensp; ♦ <a name="154">[Socket编程](./Java应届生面试突击/操作系统/Socket编程.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
+&ensp;&ensp;&ensp;&ensp; • [socket 编程的基本步骤(TCP/UDP)。]()<br>
+
 &ensp;&ensp; ♦ <a name="155">[其他相关的问题](./Java应届生面试突击/操作系统/其他相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
+&ensp;&ensp;&ensp;&ensp; • [Cookie 与 Session 的原理。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [Cookie 与 Session 的区别]()<br>
+&ensp;&ensp;&ensp;&ensp; • [session 和 cache 的区别。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [如果有几千个 session,怎么提高效率 。当 session 访问量比较大的时候,怎么解决?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [在浏览器中输入 URL 后,执行的全部过程。会用到哪些协议?(一次完整的 http 请求过程)。]()<br>
+&ensp;&ensp;&ensp;&ensp; • [域名解析]()<br>
+&ensp;&ensp;&ensp;&ensp; • [三次握手]()<br>
+&ensp;&ensp;&ensp;&ensp; • [ARP(地址解析协议)]()<br>
+&ensp;&ensp;&ensp;&ensp; • [路由选择协议]()<br>
+&ensp;&ensp;&ensp;&ensp; • [建立 TCP 连接后发起 http 请求]()<br>
+&ensp;&ensp;&ensp;&ensp; • [服务器收到请求并响应 http 请求]()<br>
+&ensp;&ensp;&ensp;&ensp; • [浏览器解析 html 代码,并请求 html 代码中的资源(如 js、css、图片等)]()<br>
+&ensp;&ensp;&ensp;&ensp; • [断开 TCP 连接]()<br>
+&ensp;&ensp;&ensp;&ensp; • [浏览器对页面进行渲染呈现给用户]()<br>
+&ensp;&ensp;&ensp;&ensp; • [路由器与交换机的区别是什么?]()<br>
 
 
 ### <a name="2">Java工程师面试突击_问题目录</a>
