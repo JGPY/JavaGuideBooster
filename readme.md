@@ -231,23 +231,34 @@
 &ensp;&ensp;&ensp;&ensp; • [数据库连接池的原理？连接池使用什么数据结构实现？实现连接池？]() <br>
 
 #### <a name="14">[操作系统](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统)</a>
-&ensp;&ensp; ♦ <a name="141">[操作系统专题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/操作系统专题.md)</a> <br>
+&ensp;&ensp; ♦ <a name="141">[操作系统专题](./Java应届生面试突击/操作系统/01_操作系统专题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [进程间的通信方式(IPC)?进程调度方法]() <br>
+&ensp;&ensp;&ensp;&ensp; • [线程间的通信方式？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [线程同步的机制]() <br>
+&ensp;&ensp;&ensp;&ensp; • [操作系统由哪几部分组成？]() <br>
+&ensp;&ensp;&ensp;&ensp; • [用户态和系统态是什么时候进行切换的？６４位操作系统和３２位操作系统有什么区别和优点]() <br>
+&ensp;&ensp;&ensp;&ensp; • [选择一个你熟悉的磁盘臂调度算法进行简单描述]() <br>
+&ensp;&ensp;&ensp;&ensp; • [进程和线程的区别?]() <br>
+&ensp;&ensp;&ensp;&ensp; • [操作系统的换页方法]() <br>
+&ensp;&ensp;&ensp;&ensp; • [哲学家进餐问题的无死锁算法]() <br>
+&ensp;&ensp;&ensp;&ensp; • [操作系统的内存管理]() <br>
+&ensp;&ensp; ♦ <a name="141">[linux系统常用命令](./Java应届生面试突击/操作系统/02_linux系统常用命令.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • []() <br>
 &ensp;&ensp;&ensp;&ensp; • []() <br>
 
 #### <a name="15">[计算机网络](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/计算机网络.md)</a>
-&ensp;&ensp; ♦ <a name="151">[TCP/IP相关的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/TCP_IP相关的问题.md)</a> <br>
+&ensp;&ensp; ♦ <a name="151">[TCP/IP相关的问题](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="152">[HTTP协议相关的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/HTTP协议相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="153">[安全相关的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/安全相关的问题.md)</a> <br>
+&ensp;&ensp; ♦ <a name="152">[HTTP协议相关的问题](./master/Java应届生面试突击/操作系统/HTTP协议相关的问题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
 &ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="154">[Socket编程](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/Socket编程.md)</a> <br>
+&ensp;&ensp; ♦ <a name="153">[安全相关的问题](./Java应届生面试突击/操作系统/安全相关的问题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
 &ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
-&ensp;&ensp; ♦ <a name="155">[其他相关的问题](https://github.com/JGPY/JavaGuide/tree/master/Java应届生面试突击/操作系统/其他相关的问题.md)</a> <br>
+&ensp;&ensp; ♦ <a name="154">[Socket编程](./Java应届生面试突击/操作系统/Socket编程.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
+&ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
+&ensp;&ensp; ♦ <a name="155">[其他相关的问题](./Java应届生面试突击/操作系统/其他相关的问题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
 &ensp;&ensp;&ensp;&ensp; • <a name=""></a> <br>
 
