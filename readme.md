@@ -81,7 +81,7 @@
 
 ---
 
-### <a name="1">Java应届生面试突击_问题目录</a>
+### <a name="1">Java应届生面试突击_目录</a>
 
 #### <a name="11">Java基础</a>
 &ensp;&ensp; ♦ <a name="111">[JVM相关](./Java应届生面试突击/Java基础/01_JVM相关.md)</a> <br>
@@ -330,7 +330,7 @@
 &ensp;&ensp;&ensp;&ensp; • [Cookie 与 Session 的原理。]()<br>
 &ensp;&ensp;&ensp;&ensp; • [Cookie 与 Session 的区别]()<br>
 &ensp;&ensp;&ensp;&ensp; • [session 和 cache 的区别。]()<br>
-&ensp;&ensp;&ensp;&ensp; • [如果有几千个 session,怎么提高效率 。当 session 访问量比较大的时候,怎么解决?]()<br>
+&ensp;&ensp;&ensp;&ensp; • [如果有几千个 session,怎么提高效率。当 session 访问量比较大的时候,怎么解决?]()<br>
 &ensp;&ensp;&ensp;&ensp; • [在浏览器中输入 URL 后,执行的全部过程。会用到哪些协议?(一次完整的 http 请求过程)。]()<br>
 &ensp;&ensp;&ensp;&ensp; • [域名解析]()<br>
 &ensp;&ensp;&ensp;&ensp; • [三次握手]()<br>
@@ -345,13 +345,39 @@
 
 ---
 
-### <a name="2">Java应届生算法突击_章节目录</a> <br>   
+### <a name="2">Java应届生算法突击_目录</a> <br>
+   
+#### <a name="21">笔面试算法题型分类及其解析(Java版)</a>
+&ensp;&ensp; ♦ <a name="211">[链表专题](./Java应届生算法突击/笔面试算法题型分类及其解析(Java版)/链表专题)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []()<br>
 
+&ensp;&ensp; ♦ <a name="212">[双指针专题](./Java应届生算法突击/笔面试算法题型分类及其解析(Java版)/双指针专题)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []()<br>
 
+&ensp;&ensp; ♦ <a name="213">[字符串专题](./Java应届生算法突击/笔面试算法题型分类及其解析(Java版)/字符串专题)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []()<br>
+
+&ensp;&ensp; ♦ <a name="214">[数学类专题](./Java应届生算法突击/笔面试算法题型分类及其解析(Java版)/数学类专题)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []()<br>
+
+&ensp;&ensp; ♦ <a name="215">[动态规划专题](./Java应届生算法突击/笔面试算法题型分类及其解析(Java版)/动态规划专题)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []()<br>
+
+&ensp;&ensp; ♦ <a name="216">[二分类查找专题](./Java应届生算法突击/笔面试算法题型分类及其解析(Java版)/二分类查找专题)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []()<br>
+
+&ensp;&ensp; ♦ <a name="217">[哈希表专题](./Java应届生算法突击/笔面试算法题型分类及其解析(Java版)/哈希表专题)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []()<br>
+
+&ensp;&ensp; ♦ <a name="218">[回溯专题](./Java应届生算法突击/笔面试算法题型分类及其解析(Java版)/回溯专题)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []()<br>
+
+&ensp;&ensp; ♦ <a name="219">[位运算专题](./Java应届生算法突击/笔面试算法题型分类及其解析(Java版)/位运算专题)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • []()<br>
 
 ---
 
-### <a name="3">Java工程师面试突击_问题目录</a>
+### <a name="3">Java工程师面试突击_目录</a>
 
 #### <a name="31">消息中间件</a>
 - [如何进行消息队列的选型](./notes/待整理.md)
