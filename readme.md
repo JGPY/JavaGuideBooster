@@ -7,10 +7,9 @@
 
 
 # 如果事件充裕可系统学习这些勤劳的ＩＴ猿整理的资料
-[技术面试必备基础知识 https://cyc2018.github.io/CS-Notes](https://github.com/CyC2018/CS-Notes)
-[【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。 https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
-
-[All Algorithms implemented in Java ](https://github.com/TheAlgorithms/Java)
+[I  【技术面试必备基础知识】](https://github.com/CyC2018/CS-Notes) <br>
+[II 【Java学习+面试指南】](https://github.com/Snailclimb/JavaGuide) <br>
+[III【All Algorithms implemented in Java】](https://github.com/TheAlgorithms/Java) <br>
 
 ---
 
@@ -54,7 +53,7 @@
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#155">其他相关的问题</a> <br>
 
 ### <a href="#2">Java应届生算法突击_章节目录</a> <br>
-&ensp;&ensp;  <a href="#21">笔面试算法题型分类及其解析(Java版)</a> <br> 
+&ensp;&ensp;  <a href="#21">I 笔面试算法题型分类及其解析(Java版)</a> <br> 
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#211">链表专题</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#212">双指针专题</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#213">字符串专题</a> <br>
@@ -65,10 +64,10 @@
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#218">回溯专题</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#219">位运算专题</a> <br>
 
-&ensp;&ensp;  <a href="#22">《剑指offer》_60</a> <br> 
+&ensp;&ensp;  <a href="#22">II 《剑指offer》_60</a> <br> 
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#221">整理中...</a> <br>
 
-&ensp;&ensp;  <a href="#23">Leedcode_Top100</a> <br> 
+&ensp;&ensp;  <a href="#23">III Leedcode_Top100</a> <br> 
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#231">整理中...</a> <br>
 
 
@@ -173,7 +172,7 @@
 &ensp;&ensp;&ensp;&ensp; • [10. 什么是泛型,为什么要使用以及类型擦除。](./Java应届生面试突击/Java基础/05_Java基础专题.md/#10) <br>
 &ensp;&ensp;&ensp;&ensp; • [11. Java中的 NIO,BIO 分别是什么。NIO 主要用来解决什么问题。](./Java应届生面试突击/Java基础/05_Java基础专题.md/#11) <br>
 &ensp;&ensp;&ensp;&ensp; • [12. 面向对象的 6 个基本原则(设计模式的 6 个基本原则)。](./Java应届生面试突击/Java基础/05_Java基础专题.md/#12) <br>
-&ensp;&ensp;&ensp;&ensp; • [13. JDK 源码中用到的设计模式。](./Java应届生面试突击/Java基础/05_Java基础专题.md/#13) <br>              
+&ensp;&ensp;&ensp;&ensp; • [13. JDK 源码中用到的设计模式。](./Java应届生面试突击/Java基础/05_Java基础专题.md/#13) <br>
 &ensp;&ensp;&ensp;&ensp; • [14. 执行 Student s = new Student();在内存中做了哪些事情?](./Java应届生面试突击/Java基础/05_Java基础专题.md/#14) <br>
 &ensp;&ensp;&ensp;&ensp; • [15. 你知道的开源软件有哪些?](./Java应届生面试突击/Java基础/05_Java基础专题.md/#15) <br>
 &ensp;&ensp;&ensp;&ensp; • [16. String 型变量如何转成 int 型变量,反过来呢?](./Java应届生面试突击/Java基础/05_Java基础专题.md/#16) <br>
