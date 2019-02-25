@@ -1,8 +1,16 @@
 # JavaGuide (还在整理中，请耐心等待，如果急需相关资料，[请邮箱联系我。](./notes/待整理.md))
 <a href="#1">Java应届生面试突击</a> <br>
-<a href="#2">Java工程师面试突击</a> <br>
 
-<a href="#3">Java应届生算法突击</a> <br>
+<a href="#2">Java应届生算法突击</a> <br>
+
+<a href="#3">Java工程师面试突击(整理中...)</a> <br>
+
+
+# 如果事件充裕可系统学习这些勤劳的ＩＴ猿整理的资料
+[技术面试必备基础知识 https://cyc2018.github.io/CS-Notes](https://github.com/CyC2018/CS-Notes)
+[【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。 https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
+
+[All Algorithms implemented in Java ](https://github.com/TheAlgorithms/Java)
 
 ---
 
@@ -35,27 +43,46 @@
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="#1311">其他问题</a> <br>
 
 &ensp;&ensp;  <a href="#14">操作系统</a> <br> 
-&ensp;&ensp; ♦ <a href="#141">操作系统专题</a> <br>
-&ensp;&ensp; ♦ <a href="#141">linux系统常用命令</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#141">操作系统专题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#142">linux系统常用命令</a> <br>
 
 &ensp;&ensp;  <a href="#15">计算机网络</a> <br>
-&ensp;&ensp;&ensp;&ensp; ♦ <a href="#15">TCP/IP相关的问题</a> <br>
-&ensp;&ensp;&ensp;&ensp; ♦ <a href="#15">HTTP 协议相关的问题</a> <br>
-&ensp;&ensp;&ensp;&ensp; ♦ <a href="#15">安全相关的问题</a> <br>
-&ensp;&ensp;&ensp;&ensp; ♦ <a href="#15">Socket 编程</a> <br>
-&ensp;&ensp;&ensp;&ensp; ♦ <a href="#15">其他相关的问题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#151">TCP/IP相关的问题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#152">HTTP 协议相关的问题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#153">安全相关的问题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#154">Socket 编程</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#155">其他相关的问题</a> <br>
 
-### <a href="#2">Java工程师面试突击_章节目录</a> <br>
-&ensp;&ensp;  <a href="#21">消息中间件</a> <br>
-&ensp;&ensp;  <a href="#22">分布式搜索</a> <br>
-&ensp;&ensp;  <a href="#23">分布式缓存</a> <br>
-&ensp;&ensp;  <a href="#24">分布式系统</a> <br>
-&ensp;&ensp;  <a href="#25">数据库</a> <br>
+### <a href="#2">Java应届生算法突击_章节目录</a> <br>
+&ensp;&ensp;  <a href="#21">笔面试算法题型分类及其解析(Java版)</a> <br> 
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#211">链表专题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#212">双指针专题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#213">字符串专题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#214">数学类专题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#215">动态规划专题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#216">二分类查找专题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#217">哈希表专题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#218">回溯专题</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#219">位运算专题</a> <br>
 
+&ensp;&ensp;  <a href="#22">《剑指offer》_60</a> <br> 
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#221">整理中...</a> <br>
+
+&ensp;&ensp;  <a href="#23">Leedcode_Top100</a> <br> 
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="#231">整理中...</a> <br>
+
+
+### <a href="#3">Java工程师面试突击_章节目录</a> <br>
+&ensp;&ensp;  <a href="#31">消息中间件</a> <br>
+&ensp;&ensp;  <a href="#32">分布式搜索</a> <br>
+&ensp;&ensp;  <a href="#33">分布式缓存</a> <br>
+&ensp;&ensp;  <a href="#34">分布式系统</a> <br>
+&ensp;&ensp;  <a href="#35">数据库</a> <br>
+
+---
 
 ### <a name="1">Java应届生面试突击_问题目录</a>
 
----
 #### <a name="11">Java基础</a>
 &ensp;&ensp; ♦ <a name="111">[JVM相关](./Java应届生面试突击/Java基础/01_JVM相关.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • [1. 说一下Java的垃圾回收机制。](./Java应届生面试突击/Java基础/01_JVM相关.md/#1) <br>
@@ -316,12 +343,17 @@
 &ensp;&ensp;&ensp;&ensp; • [浏览器对页面进行渲染呈现给用户]()<br>
 &ensp;&ensp;&ensp;&ensp; • [路由器与交换机的区别是什么?]()<br>
 
+---
+
+### <a name="2">Java应届生算法突击_章节目录</a> <br>   
 
 
-### <a name="2">Java工程师面试突击_问题目录</a>
 
---- 
-#### <a name="21">消息中间件</a>
+---
+
+### <a name="3">Java工程师面试突击_问题目录</a>
+
+#### <a name="31">消息中间件</a>
 - [如何进行消息队列的选型](./notes/待整理.md)
 - [引入消息队列后如何保证其可用性](./notes/待整理.md)
 - [为什么消息队列里消费到了重复数据](./notes/待整理.md)
@@ -331,14 +363,14 @@
 - [如果让你开发一个消息中间件,你会怎么设计架构](./notes/待整理.md)
 - [消息队列相关问题的面试技巧](./notes/待整理.md)
 
-#### <a name="22">分布式搜索</a>
+#### <a name="32">分布式搜索</a>
 - [分布式引擎架构是怎么设计的,为什么是分布式的](./notes/待整理.md)
 - [分布式搜索引擎写入和查询的工作流程](./notes/待整理.md)
 - [分布式搜索引擎在几十亿数据量级的场景下如何优化查询性能](./notes/待整理.md)
 - [你们公司分布式搜索引擎是怎么部署的](./notes/待整理.md)
 - [分布式搜索引擎相关问题的面试技巧](./notes/待整理.md)
 
-#### <a name="23">分布式缓存</a>
+#### <a name="33">分布式缓存</a>
 - [分布式缓存第一个问题]()
 - [redis线程模型,为什么单线程还是有很高的效率]()
 - [redis有哪些数据类型,分别在什么场景下使用比较合适]()
@@ -352,7 +384,7 @@
 - [你们公司生产环境的redis集群的部署架构是什么样的]()
 - [分布式缓存面试题的回答技巧]()
 
-#### <a name="24">分布式系统</a>
+#### <a name="34">分布式系统</a>
 - [为什么要把系统拆分为分布式,为啥要用dubbo]()
 - [dubbo的工作原理,注册中心挂了可以继续通信嘛]()
 - [dubbo都支持哪写通信协议以及序列化协议]()
@@ -368,7 +400,7 @@
 - [分布式事务方案,有啥坑]()
 - [一般如何设计一个高并发的系统架构]()
 
-#### <a name="25">数据库</a>
+#### <a name="35">数据库</a>
 - [如何分库分表]()
 - [如何系统不停机迁移到分库分表]()
 - [如何设计可动态扩容缩容的分库分表方案]()
@@ -378,4 +410,3 @@
 
 ---
 
-### <a href="#3">Java应届生算法突击_章节目录</a> <br>   
