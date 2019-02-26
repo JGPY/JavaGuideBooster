@@ -43,8 +43,8 @@ System.gc(),通知 GC 运行,但是 Java 语言规范并不保证 GC 一定会�
 &ensp;&ensp;&ensp;&ensp; how:对象如何被回收的?4 种垃圾回收算法。
 
 ### <a name="2">2. JVM的内存布局/内存模型。(需要详细到每个区放什么)</a>
-区别于”JAVA 的内存模型”
-图图图
+区别于”JAVA 的内存模型” <br>
+![JVM的内存模型](/data/images/Java应届生面试突击/Java基础/01_2.png) <br>
 参见《深入理解 java 虚拟机》。
 
 ### <a name="3">3. JVM的4种引用和使用场景?</a>
@@ -110,6 +110,10 @@ PhantomReference pr = new PhantomReference (object, queue); <br>
 &ensp;&ensp;&ensp;&ensp;
 1. 单条引用链的可达性以最弱的一个引用类型来决定; <br>
 2. 多条引用链的可达性以最强的一个引用类型来决定; <br>
+
+![树型引用链](/data/images/Java应届生面试突击/Java基础/01_３.png) <br>
+
+
 &ensp;&ensp;&ensp;&ensp;
     我们假设图 2 中引用1和3为强引用,5为软引用,7为弱引用,对于对
 象 5 按照这两个判断原则,路径1-5取最弱的引用5,因此该路径对对象 5 的
@@ -202,8 +206,9 @@ MyObject object = anotherObject.clone();<br>
 1.被克隆的类要实现 Cloneable 接口。<br>
 2.被克隆的类要重写 clone()方法。<br>
 
-
-图图
+![图](/data/images/Java应届生面试突击/Java基础/01_８_1.png) <br>
+![图](/data/images/Java应届生面试突击/Java基础/01_８_２.png) <br>
+![图](/data/images/Java应届生面试突击/Java基础/01_８_３.png) <br>
 
 * 扩展: <br>
 &ensp;&ensp;&ensp;&ensp;
@@ -250,17 +255,22 @@ MyObject object = anotherObject.clone();<br>
     参见《深入理解 java 虚拟机》。
 
 ### <a name="11">11. 什么是内存泄露和内存溢出。</a>
+<br>
 
-图图
+![图](/data/images/Java应届生面试突击/Java基础/01_11.png) <br>
 
   &ensp;&ensp;&ensp;&ensp;
     内存泄漏的典型例子是一个没有重写 hashCode 和 equals 方法的 Key 类在
 HashMap 中保存的情况,最后会生成很多重复的对象。所有的内存泄露最后都
 会 抛 出OutOfMemoryError异 常 ( Exceptionjava.lang.OutOfMemoryError: Java heap space)。<br>
 
-造成内存泄露的原因:
+造成内存泄露的原因: <br>
 
-图图
+![图](/data/images/Java应届生面试突击/Java基础/01_11_2.png) <br>
+![图](/data/images/Java应届生面试突击/Java基础/01_11_3.png) <br>
+![图](/data/images/Java应届生面试突击/Java基础/01_11_4.png) <br>
+
+
 
 *   内存泄露的解决方案(重要!!): <br>
     1、避免在循环中创建对象。 <br>
@@ -271,13 +281,12 @@ HashMap 中保存的情况,最后会生成很多重复的对象。所有的内�
 *   在实际场景中,你怎么查找内存泄露?<br>
     可以使用 Jconsole。
     
-没有内存泄露的:
+没有内存泄露的:<br>
+![图](/data/images/Java应届生面试突击/Java基础/01_11_5.png) <br>
 
-图图
 
-造成内存泄露的:如果内存的大小持续地增长,则说明系统存在内存泄漏。
-
-图图
+造成内存泄露的:如果内存的大小持续地增长,则说明系统存在内存泄漏。<br>
+![图](/data/images/Java应届生面试突击/Java基础/01_11_6.png) <br>
 
 *   内存溢出:指程序运行过程中无法申请到足够的内存而导致的一种错误。
 
@@ -421,7 +430,11 @@ Java 内存泄露的问题调查定位: jmap,jstack 的使用等等。<br>
     &ensp;&ensp;&ensp;&ensp;
     Jconsole: 主要是内存监控和线程监控。内存监控:可以显示内存的使用情况。线程监控:遇到线程停顿时,可以使用这个功能。<br>
 
-图图图
+
+![图](/data/images/Java应届生面试突击/Java基础/01_15.png) <br>
+![图](/data/images/Java应届生面试突击/Java基础/01_15_2.png) <br>
+![图](/data/images/Java应届生面试突击/Java基础/01_15_3.png) <br>
+
 
 ### <a name="16">16. 说下虚拟机的类加载机制。</a> 
 参见《深入理解 java 虚拟机》。

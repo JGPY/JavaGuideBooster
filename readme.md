@@ -6,7 +6,7 @@
 <a href="#3"><<Java工程师面试突击>>(整理中...)</a> <br>
 
 
-# 如果事件充裕可系统学习这些勤劳的IT猿整理的资料
+# 如果时间充裕可系统学习这些勤劳的IT猿整理的资料
 [I  【技术面试必备基础知识】](https://github.com/CyC2018/CS-Notes) <br>
 [II 【Java学习+面试指南】](https://github.com/Snailclimb/JavaGuide) <br>
 [III【All Algorithms implemented in Java】](https://github.com/TheAlgorithms/Java) <br>
