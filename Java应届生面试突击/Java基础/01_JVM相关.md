@@ -111,7 +111,7 @@ PhantomReference pr = new PhantomReference (object, queue); <br>
 1. 单条引用链的可达性以最弱的一个引用类型来决定; <br>
 2. 多条引用链的可达性以最强的一个引用类型来决定; <br>
 
-![树型引用链](/data/images/Java应届生面试突击/Java基础/01_３.png) <br>
+![树型引用链](/data/images/Java应届生面试突击/Java基础/01_3.png) <br>
 
 
 &ensp;&ensp;&ensp;&ensp;
@@ -206,9 +206,9 @@ MyObject object = anotherObject.clone();<br>
 1.被克隆的类要实现 Cloneable 接口。<br>
 2.被克隆的类要重写 clone()方法。<br>
 
-![图](/data/images/Java应届生面试突击/Java基础/01_８_1.png) <br>
-![图](/data/images/Java应届生面试突击/Java基础/01_８_２.png) <br>
-![图](/data/images/Java应届生面试突击/Java基础/01_８_３.png) <br>
+![图](/data/images/Java应届生面试突击/Java基础/01_8_1.png) <br>
+![图](/data/images/Java应届生面试突击/Java基础/01_8_2.png) <br>
+![图](/data/images/Java应届生面试突击/Java基础/01_8_3.png) <br>
 
 * 扩展: <br>
 &ensp;&ensp;&ensp;&ensp;
