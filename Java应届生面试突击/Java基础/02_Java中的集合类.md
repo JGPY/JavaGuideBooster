@@ -11,10 +11,10 @@
 
 
 ### <a name="1">1. ArrayList、LinkedList、Vector的区别和实现原理。</a>
-&ensp;&ensp;&ensp;&ensp; 
+&ensp;&ensp;&ensp;&ensp;
     ArrayList 和 Vector 只能按顺序存储元素(从下标为 0 的位置开始),删除元素的时
 候,需要移位并置空,**默认初始容量都是 10。** <br>
-&ensp;&ensp;&ensp;&ensp; 
+&ensp;&ensp;&ensp;&ensp;
     ArrayList 和 Vector 基于数组实现的,LinkedList 基于**双向循环链表**实现的(含有头结点)。
 * 一.线程安全性 <br>
 &ensp;&ensp;&ensp;&ensp; 
@@ -66,6 +66,8 @@ Vector 或 ArrayList 都可以。如果是对其它**指定位置的插入、删
 值,如果没有相同的话,就创建节点放入值,并把该节点插入到链表表头(头插法)。 <br>
 ![图02_2_4](/data/images/Java应届生面试突击/Java基础/02_2_4.png) <br>
 ![图02_2_5](/data/images/Java应届生面试突击/Java基础/02_2_5.png) <br>
+    
+    
     void resize(int newCapacity) {
         Entry[] oldTable = table;
         int oldCapacity = oldTable.length;
@@ -151,7 +153,7 @@ put 时,如果同时触发了 rehash 操作,会导致扩容后的 HashMap 中的
     它的原理和 hashMap 基本一致。 <br>
 * 3.HashMap 和 HashTable 的区别。 <br>
 &ensp;&ensp;&ensp;&ensp;
-    1. Hashtable 是线程安全的,方法是 Synchronized 的,适合在多线程环境中使用,效率
+    1.Hashtable 是线程安全的,方法是 Synchronized 的,适合在多线程环境中使用,效率
 稍低;HashMap 不是线程安全的,方法不是 Synchronized 的,效率稍高,适合在单线程环
 境下使用, 所以在多线程场合下使用的话, 需要手动同步 HashMap, <br>
 **Collections.synchronizedMap()。** <br>
@@ -217,7 +219,7 @@ ap 中是否存在某个键,而应该用 containsKey()方法来判断。Hashtabl
 况下内部按并发级别为 16 来创建。对于每个 segment 的容量,默认情况也是
 16。当然并发级别(concurrentLevel)和每个段(segment)的初始容量都是可以通
 过构造函数设定的。ConcurrentHashMap 使用 segment 来分段和管理锁,
-segment 继 承 自 ReentrantLock , 因 此 ConcurrentHashMap 使 用
+segment 继承自 ReentrantLock , 因此 ConcurrentHashMap 使用
 ReentrantLock 来保证线程安全。 <br>
 &ensp;&ensp;&ensp;&ensp;
     创建好默认的 ConcurrentHashMap 之后,它的结构大致如下图: <br>
@@ -389,7 +391,7 @@ HashMap 来保存所有元素,因此 HashSet 的实现比较简单,相关 HashSe
 操作,基本上都是直接调用底层 HashMap 的相关方法来完成。 HashSet 中的元
 素都存放在 HashMap 的 key 上面,而 value 中的值都是统一的一个 
 private static final Object PRESENT = new Object(); <br>
- 
+
     
     // 底层使用 HashMap 来保存 HashSet 中所有元素。
     private transient HashMap<E,Object> map;
@@ -435,8 +437,11 @@ Map:Hashtable,HashMap,TreeMap <br>
 
 List 元素是有序的、可重复。 <br>
 List 接口中常用类 <br>
+&ensp;&ensp;&ensp;&ensp;
     Vector :线程安全,但速度慢,已被 ArrayList 替代。底层数据结构是数组 <br>
+&ensp;&ensp;&ensp;&ensp;
     ArrayList :线程不安全,查询速度快。底层数据结构是数组 <br>
+&ensp;&ensp;&ensp;&ensp;
     LinkedList :线程不安全。增删速度快。底层数据结构是链表 <br>
     
 Set(集)元素无序的、不可重复。
