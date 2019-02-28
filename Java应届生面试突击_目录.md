@@ -34,7 +34,7 @@
 &ensp;&ensp;&ensp;&ensp; • [4. 介绍一下 Java 中的集合框架?](./Java应届生面试突击/Java基础/02_Java中的集合类.md/#4) <br>
 &ensp;&ensp;&ensp;&ensp; • [5. Collection 包结构与 Collections 的区别。](./Java应届生面试突击/Java基础/02_Java中的集合类.md/#5) <br>
 
-&ensp;&ensp; ♦ <a name="113">[设计模式相](./Java应届生面试突击/Java基础/03_设计模式相关.md)</a> <br>
+&ensp;&ensp; ♦ <a name="113">[设计模式相关](./Java应届生面试突击/Java基础/03_设计模式相关.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • [1. 编写线程安全的单例模式。](./Java应届生面试突击/Java基础/03_设计模式相关.md/#1) <br>
 &ensp;&ensp;&ensp;&ensp; • [2. 享元模式。](./Java应届生面试突击/Java基础/03_设计模式相关.md/#2) <br>
 &ensp;&ensp;&ensp;&ensp; • [3. 原型模式。](./Java应届生面试突击/Java基础/03_设计模式相关.md/#3) <br>
