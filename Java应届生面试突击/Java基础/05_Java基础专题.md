@@ -288,58 +288,63 @@ d( Dependecy-Inversion Principle ): 依赖倒置原则。
 实现模块间的松耦合。减少类间的耦合性。
     合成/聚合复用:优先使用聚合或合成关系复用代码。
 ### <a name="13">13. JDK 源码中用到的设计模式 。</a>
-1.单例模式: java.lang.Runtime 。
+1.单例模式: java.lang.Runtime 。 <br>
+&ensp;&ensp;&ensp;&ensp;
     Runtime 类封装了 Java 运行时的环境。每一个 java 程序实际上都是启动
 了一个 JVM 进程,那么每个 JVM 进程都是对应这一个 Runtime 实例,此实例
 是由 JVM 为其实例化的。每个 Java 应用程序都有一个 Runtime 类实例,使
 应用程序能够与其运行的环境相连接。由于 Java 是单进程的,所以,在一个 JVM
 中,Runtime 的实例应该只有一个。所以应该使用单例来实现。一般不能实例
 化一个 Runtime 对象,应用程序也不能创建自己的 Runtime 类实例,但可以
-通过 getRuntime 方法获取当前 Runtime 运行时对象的引用。
+通过 getRuntime 方法获取当前 Runtime 运行时对象的引用。 <br>
 2.享元模式:String 常量池和 Integer 等包装类的缓存策略:Integer.valueOf(int
-i)等。
-3.原型模式:Object.clone;Cloneable。
-4.装饰器模式:IO 流中。
-5.迭代器模式:Iterator 。
+i)等。 <br>
+3.原型模式:Object.clone;Cloneable。 <br>
+4.装饰器模式:IO 流中。 <br>
+5.迭代器模式:Iterator 。 <br>
 
 ### <a name="14">14. 执行 Student s = new Student();在内存中做了哪些事情?</a>
-1.类加载的过程。
-2.对象初始化的顺序(对象实例化的过程)。 见 P28
-3.在栈内存为 s 开辟空间,把对象地址赋值给 s 变量 。
+1.类加载的过程。 <br>
+2.对象初始化的顺序(对象实例化的过程)。 见 P28 <br>
+3.在栈内存为 s 开辟空间,把对象地址赋值给 s 变量 。 <br>
 
 ### <a name="15">15. 你知道的开源软件有哪些?</a>
-1.JDK
-2.Eclipse
-3.Tomcat
-4.MySQL
+1.JDK <br>
+2.Eclipse <br>
+3.Tomcat <br>
+4.MySQL <br>
 
 ### <a name="16">16. String 型变量如何转成 int 型变量,反过来呢?</a>
-String num =“1000′′;
-int id=Integer.valueOf(num);
-——————————————
-Int a=1000;
-String string=String.valueOf(a);
+String num =“1000′′; <br>
+int id=Integer.valueOf(num); <br>
+—————————————— <br>
+Int a=1000; <br>
+String string=String.valueOf(a); <br>
 
 ### <a name="17">17. 怎么判断数组是 null 还是为空?</a>
-输出 array.length 的值,如果是 0,说明数组为空。如果是 null 的话,会抛出
-空指针异常。
+&ensp;&ensp;&ensp;&ensp;
+    输出 array.length 的值,如果是 0,说明数组为空。如果是 null 的话,会抛出
+空指针异常。 <br>
 
 ### <a name="18">18. 怎样让一个线程放弃锁。</a>
-Object.wait();
-condition.await();
+Object.wait(); <br>
+condition.await(); <br>
 
 ### <a name="19">19. IO 里面常见的类。</a>
 [05_19_1](/data/images/Java应届生面试突击/Java基础/05_19_1.png) <br>
 
 ### <a name="20">20. xml 解析方式。</a>
-DOM 和 SAX 的不同:
+DOM 和 SAX 的不同: <br>
+&ensp;&ensp;&ensp;&ensp;
     1. DOM 是基于内存的,不管文件有多大,都会把 xml 文档都读到内存中,
 从而消耗很大的内存空间。而 SAX 解析 xml 文件采用的是事件驱动的方式,当
 某个事件被触发时,获取相应的 XML 的部分数据读到内存进行解析,只占用了
-少量的内存空间。
+少量的内存空间。 <br>
+&ensp;&ensp;&ensp;&ensp;
     2. DOM 可以读取 XML,也可以向 XML 文件中插入数据,而 SAX 却只能对
-XML 进行读取,而不能在文件中插入数据。
+XML 进行读取,而不能在文件中插入数据。 <br>
+&ensp;&ensp;&ensp;&ensp;
     3.DOM 可以指定要访问的元素进行随机访问,而 SAX 则不行。SAX 是从文
 档开始执行遍历的,并且只能遍历一次。也就是说不能随机访问 XML 文件,只
-能从头到尾的将 XML 文件遍历一次,但可以随时停止解析。
+能从头到尾的将 XML 文件遍历一次,但可以随时停止解析。 <br>
 
