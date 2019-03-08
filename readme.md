@@ -1,10 +1,22 @@
 # Java笔面试加速器(还在整理中，请耐心等待，如果急需相关资料，[请邮箱联系我。](./notes/待整理.md))
+* 整理这些资料的起因：自己还有一年的时间就即将毕业了，因为没有继续深造的意愿，所以开始注意工作方面的动向。<br>
+初步看了些往年互联公司的网申题目和校招笔试题目感觉很难入手，与往届毕业的师兄师姐交流些面试情况，自我感觉很不良好啊。<br>
+所以在网上找了些有关笔试和面试相关的内容，总体感觉不是**杂**就**面太广太多**，很难仔细消化掉。<br>
+根据往届师兄师姐留下来的笔/面试资料和一些网上的资料整理了出来。<br>
+根据前两届找Java工作的师兄师姐们的口述经验可推断出以下内容**基本正中把心**。<br>
+* 无论你是即将进入社会的应届Java工程师还是即将打算跳槽的Java工程师，只要你点击进来浏览了，我希望以下内容能给你带来帮助！<br>
+* 整理这些内容的目标是**以快速提升笔面试技能为目标！**
+* 虽然只做**搬运工**，但一字一句整理不易，还**请点亮小星星！**
+
+
+#### 内容分为三个部分：
 <a href="#1"><<Java应届生面试突击>></a> <br>
 
 <a href="#2"><<Java应届生算法突击>></a> <br>
 
 <a href="#3"><<Java工程师面试突击>>(整理中...)</a> <br>
 
+个人建议:[复习规划建议](./notes/待整理.md)
 
 # 如果时间充裕可系统学习这些勤劳的IT猿整理的资料
 [I  【技术面试必备基础知识】](https://github.com/CyC2018/CS-Notes) <br>
@@ -52,10 +64,14 @@
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生面试突击_目录.md/#154">Socket 编程</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生面试突击_目录.md/#155">其他相关的问题</a> <br>
 
+
 ---
 
 ### <a href="./Java应届生算法突击_目录.md/#2">Java应届生算法突击_章节目录</a> <br>
-&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#21">I 笔面试算法题型分类及其解析(Java版)</a> <br> 
+
+&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#21">I 预备知识</a> <br> 
+
+&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#21">II 笔面试算法题型分类及其解析(Java版)</a> <br> 
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md/#211">链表专题</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md/#212">双指针专题</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md/#213">字符串专题</a> <br>
@@ -66,10 +82,18 @@
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md/#218">回溯专题</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md/#219">位运算专题</a> <br>
 
-&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#22">II 《剑指offer》_60</a> <br> 
-&ensp;&ensp;&ensp;&ensp; ♦ <a href="#221">整理中...</a> <br>
+&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#22">III 《剑指offer》_60</a> <br> 
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#221">链表(8道)</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#222">二叉树(12道)</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#223">二叉搜索树(3道)</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#224">数组(11道)</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#225">字符串(8道)</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#226">栈(3道)</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#227">递归(4道)</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#228">回溯法(2道)</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#229">其他(15道)</a> <br>
 
-&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#23">III Leedcode_Top100</a> <br> 
+&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#23">IV Leedcode_Top100</a> <br> 
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#231">整理中...</a> <br>
 
 ---
