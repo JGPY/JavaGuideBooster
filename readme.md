@@ -1,4 +1,4 @@
-## Java笔面试加速器(我复习到哪快基本就整理到哪快，有时候忙，可能没有及时更新，还请耐心等待，如果急需相关资料，[请邮箱联系我。](./notes/待整理.md))
+## Java笔/面试加速器(我复习到哪快基本就整理到哪快，有时候忙，可能没有及时更新，还请耐心等待，如果急需相关资料，[请邮箱联系我。](./notes/待整理.md))
 * 整理这些资料的起因：自己还有一年的时间就即将毕业了，因为没有继续深造的意愿，所以开始注意工作方面的动向。
   初步看了些往年互联公司的网申题目和校招笔试题目感觉很难入手，与往届毕业的师兄师姐交流些面试情况，自我感觉很不良好啊。
 * 在网上找了些有关笔试和面试相关的内容，总体感觉不是**杂**就**面太广太多**，很难仔细消化掉。
@@ -14,7 +14,7 @@
 
 <a href="#2"><<Java应届生算法突击>></a> <br>
 
-<a href="#3"><<Java工程师面试突击>>(整理中...)</a> <br>
+<a href="#3"><<Java工程师面试突击>></a> <br>
 
 个人建议:[复习规划](./notes/待整理.md)
 
@@ -82,7 +82,7 @@
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md/#218">回溯专题</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md/#219">位运算专题</a> <br>
 
-&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#22">III 《剑指offer》_60</a> <br> 
+&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#22">III 《剑指offer》_66</a> <br> 
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#221">链表(8道)</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#222">二叉树(12道)</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#223">二叉搜索树(3道)</a> <br>
@@ -112,8 +112,10 @@
 
 ---
 
+#### 整理者信息：
+Author:Jason Lou <br>
+Email:vip.iotworld@gmail.com <br>
+Blog:https://blog.csdn.net/qq_21508727 <br>
+Website:www.iotworld.vip <br>
 
-
-
-
-
+---
