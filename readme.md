@@ -9,7 +9,7 @@
 * 虽然只做**搬运工**，但一字一句整理不易，还**请点亮小星星！**
 
 
-#### 内容分为三个部分：
+### 内容分为三个部分
 <a href="#1"><<Java应届生面试突击>></a> <br>
 
 <a href="#2"><<Java应届生算法突击>></a> <br>
@@ -18,7 +18,7 @@
 
 个人建议:[复习规划](./notes/待整理.md)
 
-#### 如果时间充裕可系统学习这些勤劳的IT猿整理出来的资料
+### 如果时间充裕可系统学习这些勤劳的IT猿整理出来的资料
 [I  【技术面试必备基础知识】](https://github.com/CyC2018/CS-Notes) <br>
 [II 【Java学习+面试指南】](https://github.com/Snailclimb/JavaGuide) <br>
 [III【All Algorithms implemented in Java】](https://github.com/TheAlgorithms/Java) <br>
@@ -93,7 +93,7 @@
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#228">回溯法(2道)</a> <br>
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#229">其他(15道)</a> <br>
 
-&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#23">IV Leedcode_Top100</a> <br> 
+&ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#23">IV LeetCode_Top100</a> <br> 
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#231">整理中...</a> <br>
 
 ---
@@ -112,7 +112,7 @@
 
 ---
 
-#### 整理者信息：
+### 搬运工信息
 Author:Jason Lou <br>
 Email:vip.iotworld@gmail.com <br>
 Blog:https://blog.csdn.net/qq_21508727 <br>
