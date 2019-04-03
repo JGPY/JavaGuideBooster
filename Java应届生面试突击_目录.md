@@ -188,8 +188,13 @@
 &ensp;&ensp;&ensp;&ensp; • [哲学家进餐问题的无死锁算法](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
 &ensp;&ensp;&ensp;&ensp; • [操作系统的内存管理](./Java应届生面试突击/操作系统/01_操作系统专题.md/#) <br>
 &ensp;&ensp; ♦ <a name="141">[linux系统常用命令](./Java应届生面试突击/操作系统/02_linux系统常用命令.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • [linux下如何检查服务器异常](https://blog.csdn.net/qq_21508727/article/details/83544199) <br>
-&ensp;&ensp;&ensp;&ensp; • [linux系统任务的后台运行和关闭、查看后台任务等](https://blog.csdn.net/qq_21508727/article/details/85198912) <br>
+&ensp;&ensp;&ensp;&ensp; • [Linux常用命令1](https://blog.csdn.net/qq_21508727/article/details/81038008)
+&ensp;&ensp;&ensp;&ensp; • [Linux常用命令2（远程文件下载+查看文件内容）](https://blog.csdn.net/qq_21508727/article/details/81063678)
+&ensp;&ensp;&ensp;&ensp; • [Linux常用命令3（压缩和解压缩总结）](https://blog.csdn.net/qq_21508727/article/details/81074722)
+&ensp;&ensp;&ensp;&ensp; • [Linux常用命令4（查找命令）](https://blog.csdn.net/qq_21508727/article/details/81161619)
+&ensp;&ensp;&ensp;&ensp; • [linux常用命令5（查看系统信息）](https://blog.csdn.net/qq_21508727/article/details/81161636)
+&ensp;&ensp;&ensp;&ensp; • [linux下如何检查服务器异常](https://blog.csdn.net/qq_21508727/article/details/83544199)
+&ensp;&ensp;&ensp;&ensp; • [linux系统任务的后台运行和关闭、查看后台任务等](https://blog.csdn.net/qq_21508727/article/details/85198912)
 
 #### <a name="15">[计算机网络](./Java应届生面试突击/操作系统/计算机网络.md)</a>
 &ensp;&ensp; ♦ <a name="151">[TCP/IP相关的问题](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md)</a> <br>
