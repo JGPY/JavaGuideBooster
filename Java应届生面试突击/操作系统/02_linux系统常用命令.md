@@ -15,3 +15,11 @@
 - [linux下如何检查服务器异常](https://blog.csdn.net/qq_21508727/article/details/83544199)
 
 - [linux系统任务的后台运行和关闭、查看后台任务等](https://blog.csdn.net/qq_21508727/article/details/85198912)
+
+---
+### 搬运工信息
+Author:Jason Lou <br>
+Email:vip.iotworld@gmail.com <br>
+Blog:https://blog.csdn.net/qq_21508727 <br>
+Github:https://github.com/JGPY/JavaGuideBooster <br>
+---

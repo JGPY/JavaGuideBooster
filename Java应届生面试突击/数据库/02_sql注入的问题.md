@@ -87,3 +87,11 @@ check_username 的函数来进行统一的检查。 不过， 仍然有很多例
 &ensp;&ensp;&ensp;&ensp;
     所有的 SQL 语句都封装在存储过程中， 这样不但可以避免 SQL 注入， 还能
 提高一些性能。
+
+---
+### 搬运工信息
+Author:Jason Lou <br>
+Email:vip.iotworld@gmail.com <br>
+Blog:https://blog.csdn.net/qq_21508727 <br>
+Github:https://github.com/JGPY/JavaGuideBooster <br>
+---

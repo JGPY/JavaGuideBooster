@@ -28,7 +28,7 @@
 ### <a name="1">1. String中的”+”操作是怎么回事?</a>
 1.String 中的”+”操作是怎么回事?
 
-情况 1:
+#### 情况 1:
 1. String a = "ab";
 2. String bb = "b";
 3. String b = "a" + bb;
@@ -43,7 +43,7 @@ java 中 String 的+运算符编译后其实是转换成了这样的代码:
         return new String(value, 0, count);
     }
 
-情况 2:
+#### 情况 2:
 一个特殊的例子:
     String str = “This is only a” + “ simple” + “ test”;//“+”连接的都是字符串常量
     StringBuffer builder = new StringBuilder(“This is only a”).append(“ simple”).appe
@@ -61,34 +61,41 @@ String 对象的话,速度就没那么快了,譬如:
     String str1 = str2 +str3 + str4; //“+”连接的是字符串变量
     这时候 JVM 会规规矩矩的按照原来的方式去做。
 
+
 ### <a name="2">2. StringBuilder和StringBuffer底层是怎么实现的。</a>
+&ensp;&ensp;&ensp;&ensp;
     每个 StringBuffer 对象都有一定的缓冲区容量(可变长的字符数组,类似于
 ArrayList 的底层实现),默认初始容量为 16 个字符。当字符串大小没有超过
 容量时,不会分配新的容量;当字符串大小超过容量时,会自动扩容(扩容后
 的容量大约是之前的 2 倍)。StringBuilder 和 StringBuffer,字符串都是存放在
 char[]中的。
 
+
 ### <a name="3">3. String类中常用的方法。</a>
-    1.charAt(int index) :返回指定索引处的 char 值。
-    2. intern() :返回字符串对象的规范化表示形式。
-    3.isEmpty() :当且仅当 length() 为 0 时返回 true。
-    4.length() :返回此字符串的长度。
-    5.substring(int beginIndex) :返回一个新的字符串,它是此字符串的一个
-子字符串。
+1. charAt(int index) :返回指定索引处的 char 值。
+2. intern() :返回字符串对象的规范化表示形式。
+3. isEmpty() :当且仅当 length() 为 0 时返回 true。
+4. length() :返回此字符串的长度。
+5. substring(int beginIndex) :返回一个新的字符串,它是此字符串的一个
+子字符串。  <br>
     substring(int beginIndex, int endIndex) :返回一个新字符串,它是此字
 符串的一个子字符串。
-    6.toLowerCase() :将此 String 中的所有字符都转换为小写。
+6. toLowerCase() :将此 String 中的所有字符都转换为小写。
 toUpperCase():将此 String 中的所有字符都转换为大写。
-    7.trim():去除字符串首尾空格。
-    8.valueOf(Object obj) : 返回 Object 参数的字符串表示形式。
-    9.equals(Object anObject) :将此字符串与指定的对象比较。
-    
+7. trim():去除字符串首尾空格。
+8. valueOf(Object obj) : 返回 Object 参数的字符串表示形式。
+9. equals(Object anObject) :将此字符串与指定的对象比较。
+
+
 ### <a name="4">4. 创建虚引用的时候,构造方法传入一个 ReferenceQueue,作用是什么。</a>
+&ensp;&ensp;&ensp;&ensp;
     虚引用必须和引用队列关联使用,当垃圾回收器准备回收一个对象时,如
 果发现它还有虚引用,就会把这个虚引用加入到与之关联的引用队列中。程序
 可以通过判断引用队列中是否已经加入了虚引用,来了解被引用的对象是否将
 要被垃圾回收。如果程序发现某个虚引用已经被加入到引用队列,那么就可以
 在所引用的对象的内存被回收之前采取必要的行动。
+
+
 ### <a name="5">5. 栈溢出的原因和解决方法。</a>
 原因:
 (1)大量的递归调用,在不断的压栈过程中,造成栈容量超过而导致溢出。
@@ -102,13 +109,18 @@ toUpperCase():将此 String 中的所有字符都转换为大写。
 态对象还可以保存递归调用的中间状态,并且可为各个调用层所访问。
 (3)增加堆栈的大小
 
+
 ### <a name="6">6. HashMap的加载因子的作用。</a>
+&ensp;&ensp;&ensp;&ensp;
     加载因子是表示 Hash 表中元素的填满程度。若加载因子越大,填满的元素
 越多,好处是,空间利用率高了,但冲突的机会加大了,增加查询数据的时间
 开销。反之,加载因子越小,填满的元素越少,好处是,冲突的机会减小了,
 会提高数据查询的性能,但空间浪费多了。特别地,JDK1.8 中对 HashMap 进
 行了增强,如果一个桶上的节点数量过多,链表+数组的结构就会转换为红黑树。
+
+
 ### <a name="7">7. HashMap中的 key 可以是任意对象吗?(Set 中元素的内容可以改变吗?)</a>
+&ensp;&ensp;&ensp;&ensp;
     可变对象和不可变对象都可以。可变对象是指创建后自身状态能改变的对
 象。换句话说,可变对象是该对象在创建后它的哈希值(由类的 hashCode()
 方法可以得出哈希值)可能被改变。
@@ -119,8 +131,10 @@ HashCode 也可能进行相应的改变,这将导致下次无法查找到已存�
 这样就可以保证成员变量改变的时候,该对象的哈希值不变。
 
 ### <a name="8">8. 如果你定义一个类,包括学号,姓名,分数,如何把这个对象作为 key?</a>
+&ensp;&ensp;&ensp;&ensp;
     需要重写 equals( )方法和 hashCode()方法,必须保证对象的属性改变
 时,其 hashCode()返回值不能改变。
+
 ### <a name="9">9. Java是如何实现跨平台的。</a>
     java 跨平台的实质是虚拟机的跨平台。JVM 也是一个软件,不同的平台有
 不同的版本。我们编写的 Java 源码,编译后会生成一种 .class 文件,称为字
@@ -236,7 +250,7 @@ Java NIO 的服务端只需启动一个专门的线程来处理所有的 IO 事�
     读事件                 SelectionKey.OP_READ(1)
     写事件                 SelectionKey.OP_WRITE(4)
 
-
+&ensp;&ensp;&ensp;&ensp;
     服务端和客户端各自维护一个管理通道的对象,我们称之为 selector,该对
 象能检测一个或多个通道(channel)上的事件。我们以服务端为例,如果服务
 端的 selector 上注册了读事件,某时刻客户端给服务端送了一些数据,阻塞 I/O
@@ -256,7 +270,7 @@ l( Liskov-Substituion Principle ): 里氏替换原则。
 i( Interface-Segregation Principle ): 接口隔离原则。
 d( Dependecy-Inversion Principle ): 依赖倒置原则。
 合成/聚合复用。
-
+&ensp;&ensp;&ensp;&ensp;
     单一职责:是指一个类的功能要单一,一个类只负责一个职责。一个类只
 做它该做的事情(高内聚)。在面向对象中,如果只让一个类完成它该做的事,而
 不涉及与它无关的领域就是践行了高内聚的原则。
