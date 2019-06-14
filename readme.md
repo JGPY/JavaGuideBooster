@@ -9,19 +9,29 @@
 
 
 ### 内容分为三个部分
-<a href="#1"><<Java应届生面试突击>></a> <br>
+<a href="./Java应届生面试突击_目录.md/#1"><<Java应届生面试突击>></a> <br>
 
-<a href="#2"><<Java应届生算法突击>></a> <br>
+<a href="./Java应届生算法突击_目录.md/#2"><<Java应届生算法突击>></a> <br>
 
-<a href="#3"><<Java工程师面试突击>></a> <br>
+<a href="./Java工程师面试突击_目录.md/#3"><<Java工程师面试突击>></a> <br>
+
+<a href="./Java面试强化资料_目录.md/#3"><<Java面试强化资料>></a> <br>
 
 个人建议:[复习规划](./notes/复习规划.md)
 
 ### 如果时间充裕可系统学习这些勤劳的IT猿整理出来的资料
+
+###Github:
+
 [I  【技术面试必备基础知识】](https://github.com/CyC2018/CS-Notes) <br>
 [II 【Java学习+面试指南】](https://github.com/Snailclimb/JavaGuide) <br>
 [III【All Algorithms implemented in Java】](https://github.com/TheAlgorithms/Java) <br>
 
+###网站:
+
+[I  【专注Java技术分享】](http://www.importnew.com/)
+[II 【企业级软件架构解决之道】](https://www.jdon.com/)
+[III【IBM Developer】](https://developer.ibm.com/)
 ---
 
 ### <a href="./Java应届生面试突击_目录.md/#1">Java应届生面试突击_章节目录</a> <br>
@@ -112,6 +122,13 @@
 &ensp;&ensp;  <a href="./Java工程师面试突击_目录.md/#35">V 数据库</a> <br>
 
 ---
+
+### <a href="./Java面试强化资料_目录.md/#4">Java面试强化资料_章节目录</a> <br>
+
+&ensp;&ensp;  <a href="./Java工程师面试突击_目录.md/#41">I 强化资料</a> <br>
+
+---
+
 
 ### 搬运工信息
 Author:Jason Lou <br>
