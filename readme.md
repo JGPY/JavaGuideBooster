@@ -21,17 +21,17 @@
 
 ### ♦ 如果时间充裕可系统学习这些勤劳的IT猿整理出来的资料
 
-### Github:
+#### Github:
 
 [I  【技术面试必备基础知识】](https://github.com/CyC2018/CS-Notes) <br>
 [II 【Java学习+面试指南】](https://github.com/Snailclimb/JavaGuide) <br>
 [III【All Algorithms implemented in Java】](https://github.com/TheAlgorithms/Java) <br>
 
-### 网站:
+#### 网站:
 
-[I  【专注Java技术分享】](http://www.importnew.com/)
-[II 【企业级软件架构解决之道】](https://www.jdon.com/)
-[III【IBM Developer】](https://developer.ibm.com/)
+[I  【专注Java技术分享】](http://www.importnew.com/) <br>
+[II 【企业级软件架构解决之道】](https://www.jdon.com/) <br>
+[III【IBM Developer】](https://developer.ibm.com/) <br>
 
 ---
 
