@@ -1,4 +1,4 @@
-## Java笔/面试加速器(我复习到哪块基本就整理到哪块，有时候忙，可能没有及时更新，还请耐心等待，如果急需相关资料，[请邮箱联系我。](./notes/待整理.md))
+## ♦ Java笔/面试加速器(我复习到哪块基本就整理到哪块，有时候忙，可能没有及时更新，还请耐心等待，如果急需相关资料，[请邮箱联系我。](./notes/待整理.md))
 * 整理这些资料的起因：自己还有一年的时间就即将毕业了，因为没有继续深造的意愿，所以开始注意工作方面的动向。
   初步看了些往年互联公司的网申题目和校招笔试题目感觉很难入手，与往届毕业的师兄师姐交流些面试情况，自我感觉很不良好啊。
 * 在网上找了些有关笔试和面试相关的内容，总体感觉不是**杂**就**面太广太多**，很难仔细消化掉。
@@ -8,30 +8,31 @@
 * 虽然只做**搬运工**，但一字一句整理不易，还**请点亮小星星！**
 
 
-### 内容分为三个部分
+### ♦ 内容分为四个部分
 <a href="./Java应届生面试突击_目录.md/#1"><<Java应届生面试突击>></a> <br>
 
 <a href="./Java应届生算法突击_目录.md/#2"><<Java应届生算法突击>></a> <br>
 
 <a href="./Java工程师面试突击_目录.md/#3"><<Java工程师面试突击>></a> <br>
 
-<a href="./Java面试强化资料_目录.md/#3"><<Java面试强化资料>></a> <br>
+<a href="./Java面试强化资料_目录.md/#4"><<Java面试强化资料>></a> <br>
 
 个人建议:[复习规划](./notes/复习规划.md)
 
-### 如果时间充裕可系统学习这些勤劳的IT猿整理出来的资料
+### ♦ 如果时间充裕可系统学习这些勤劳的IT猿整理出来的资料
 
-###Github:
+### Github:
 
 [I  【技术面试必备基础知识】](https://github.com/CyC2018/CS-Notes) <br>
 [II 【Java学习+面试指南】](https://github.com/Snailclimb/JavaGuide) <br>
 [III【All Algorithms implemented in Java】](https://github.com/TheAlgorithms/Java) <br>
 
-###网站:
+### 网站:
 
 [I  【专注Java技术分享】](http://www.importnew.com/)
 [II 【企业级软件架构解决之道】](https://www.jdon.com/)
 [III【IBM Developer】](https://developer.ibm.com/)
+
 ---
 
 ### <a href="./Java应届生面试突击_目录.md/#1">Java应届生面试突击_章节目录</a> <br>
