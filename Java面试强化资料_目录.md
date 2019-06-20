@@ -5,7 +5,8 @@
 &ensp;&ensp; ♦ <a name="412">[！！！Java后端技术面试汇总.pdf](./data/books/面试强化资料/Java后端技术面试汇总-20190301.pdf)</a> <br>
 &ensp;&ensp; ♦ <a name="413">[！！Java常见疑惑和陷阱.pdf](./data/books/面试强化资料/Java常见疑惑和陷阱.pdf)</a> <br>
 &ensp;&ensp; ♦ <a name="414">[2019阿里巴巴技术技术专家面试题汇总.pdf](./data/books/面试强化资料/2019阿里巴巴技术技术专家面试题汇总1559554113.pdf)</a> <br>
-&ensp;&ensp; ♦ <a name="415">[JAVA核心知识点整理.pdf](./data/books/面试强化资料/JAVA核心知识点整理.pdf)</a> <br>
+&ensp;&ensp; ♦ <a name="415">[Java开发手册规范1.5.0.pdf](./data/books/面试强化资料/Java开发手册规范1.5.0.pdf)</a> <br>
+&ensp;&ensp; ♦ <a name="416">[Java核心知识点整理.pdf](data/books/面试强化资料/Java核心知识点整理.pdf)</a> <br>
 
 ---
 ### 搬运工信息
