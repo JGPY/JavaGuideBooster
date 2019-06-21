@@ -38,6 +38,7 @@ System.out.println((a == b));
 java 中 String 的+运算符编译后其实是转换成了这样的代码:
 3. String b = new StringBuilder().append("a").append(bb).toString();
 其中,StringBuilder 的 toString 方法,使用 new String(...);来构造一个 String 对象。
+    
     public String toString() { // StringBuilder 的 toString 方法
         // Create a copy, don't share the array
         return new String(value, 0, count);
