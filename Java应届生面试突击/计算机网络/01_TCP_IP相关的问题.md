@@ -3,7 +3,7 @@
 ### 目录
 
 ---
-<a href="#1">1. 一.OSI 与 TCP/IP 各层的结构与功能,都有哪些协议,协议所占端口号。</a> <br>
+<a href="#1">1. OSI 与 TCP/IP 各层的结构与功能,都有哪些协议,协议所占端口号。</a> <br>
 <a href="#2">2. IP 地址的分类。</a> <br>
 <a href="#3">3. 画出三次握手和四次挥手的图(状态转移图)。TCP 为什么三次握手,四次挥手?</a> <br>
 <a href="#4">4. 为什么收到 Server 端的确认之后,Client 还需要进行第三次“握手”呢?</a> <br>
@@ -395,7 +395,7 @@ http://www.cnblogs.com/deliver/p/5471231.html <br>
 SYN FLOOD 攻击很容易就能被防火墙拦截。 <br>
 扩展:ddos 攻击的原理,如何防止 ddos 攻击? <br>
 DDOS 是英文 Distributed Denial of Service 的缩写,意即“分布式拒绝服务”。 <br>
-[01_13_1](/data/images/Java应届生面试突击/计算机网络/01_13_1.png) <br>
+![01_13_1](/data/images/Java应届生面试突击/计算机网络/01_13_1.png) <br>
 
 #### 当前主要有 2 种流行的 DDOS 攻击:
 &ensp;&ensp;&ensp;&ensp;
@@ -484,12 +484,12 @@ listen()、connect()函数 <br>
 accept()函数 <br>
 read()/write()函数--------send()/recv()函数 <br>
 close()函数 <br>
-[01_15_1](/data/images/Java应届生面试突击/计算机网络/01_15_1.png) <br>
+![01_15_1](/data/images/Java应届生面试突击/计算机网络/01_15_1.png) <br>
 ##### Socket server 和 client 通信流程图:
-[01_15_2](/data/images/Java应届生面试突击/计算机网络/01_15_2.png) <br>
+![01_15_2](/data/images/Java应届生面试突击/计算机网络/01_15_2.png) <br>
 
 ##### Socket 三次握手连接图:
-[01_15_3](/data/images/Java应届生面试突击/计算机网络/01_15_3.png) <br>
+![01_15_3](/data/images/Java应届生面试突击/计算机网络/01_15_3.png) <br>
 &ensp;&ensp;&ensp;&ensp;
     从图中可以看出,当客户端调用 connect()函数时,触发了连接请求,向服务器发送了
 SYN J 包,这时 connect 进入阻塞状态(先调用 connect()函数,然后发送 SYN 包);
@@ -500,7 +500,7 @@ SYN J 包,这时 connect 进入阻塞状态(先调用 connect()函数,然后发�
 总结:客户端的 connect()函数在三次握手的第二次之后返回,而服务器端的 accept
 ()在三次握手的第三次之后返回。
 ##### Socket 四次握手断开连接图:
-[01_15_4](/data/images/Java应届生面试突击/计算机网络/01_15_4.png) <br>
+![01_15_4](/data/images/Java应届生面试突击/计算机网络/01_15_4.png) <br>
 注意,read()返回 0 就表明收到了 FIN 段。
 
 *函数:*
@@ -630,8 +630,8 @@ UDP 发送的每个数据报是记录型的数据报,所谓的记录型数据报
 
 #### 几种拥塞控制方法:
 慢开始和拥塞避免、快重传和快恢复。   
-[01_21_1](/data/images/Java应届生面试突击/计算机网络/01_21_1.png) <br>
-[01_21_2](/data/images/Java应届生面试突击/计算机网络/01_21_2.png) <br>
+![01_21_1](/data/images/Java应届生面试突击/计算机网络/01_21_1.png) <br>
+![01_21_2](/data/images/Java应届生面试突击/计算机网络/01_21_2.png) <br>
 
 ### <a name="22">22. TCP 滑动窗口协议,窗口过大或过小有什么影响?</a>
 &ensp;&ensp;&ensp;&ensp;
@@ -652,7 +652,7 @@ Nagle 算法就是为了尽可能发送大块数据,避免网络中充斥着许�
     Nagle 算法要求一个 TCP 连接上最多只能有一个未被确认的未完成的小分组,在该
 分组的确认到达之前不能发送其他的小分组。因此它事实上就是一个扩展的停-等协议,只
 不过它是基于包停-等的,而不是基于字节停-等的。 <br>
-[01_23_1](/data/images/Java应届生面试突击/计算机网络/01_23_1.png) <br>
+![01_23_1](/data/images/Java应届生面试突击/计算机网络/01_23_1.png) <br>
 
     他的主要职责是数据的累积,实际上有三个门槛:
 - 1) 缓冲区中的字节数达到了一定量(超过阀值 MSS);
@@ -660,7 +660,7 @@ Nagle 算法就是为了尽可能发送大块数据,避免网络中充斥着许�
   3) 紧急数据发送。
 
 2. 糊涂窗口综合症 <br>
-[01_23_2](/data/images/Java应届生面试突击/计算机网络/01_23_2.png) <br>
+![01_23_2](/data/images/Java应届生面试突击/计算机网络/01_23_2.png) <br>
 
 ### <a name="24">24. 说下 TCP 的黏包 ?</a>
 &ensp;&ensp;&ensp;&ensp;
@@ -699,14 +699,14 @@ Nagle 算法产生的背景是,为了解决发送多个非常小的数据包时(
 不能光讲头部哪些字段,还要结合字段讲讲作用,然后就顺带把整个
 TCP 的可靠传输原理,以及相关的拥塞控制等全讲了.这就是主动出
 击的技巧)* <br>
-[01_25_1](/data/images/Java应届生面试突击/计算机网络/01_25_1.png) <br>
-[01_25_2](/data/images/Java应届生面试突击/计算机网络/01_25_2.png) <br>
-[01_25_3](/data/images/Java应届生面试突击/计算机网络/01_25_3.png) <br>
+![01_25_1](/data/images/Java应届生面试突击/计算机网络/01_25_1.png) <br>
+![01_25_2](/data/images/Java应届生面试突击/计算机网络/01_25_2.png) <br>
+![01_25_3](/data/images/Java应届生面试突击/计算机网络/01_25_3.png) <br>
 
 ### <a name="26">26. UDP 的首部多长,具体包含哪些字段?</a>
 &ensp;&ensp;&ensp;&ensp;
     UDP 的首部是固定 8B。包含的字段如下。 <br>
-[01_26_1](/data/images/Java应届生面试突击/计算机网络/01_26_1.png) <br>
+![01_26_1](/data/images/Java应届生面试突击/计算机网络/01_26_1.png) <br>
 
 
 
