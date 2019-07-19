@@ -99,7 +99,7 @@
 &ensp;&ensp;&ensp;&ensp; • [19. IO 里面常见的类。](./Java应届生面试突击/Java基础/05_Java基础专题.md/#19) <br>
 &ensp;&ensp;&ensp;&ensp; • [20. xml 解析方式。](./Java应届生面试突击/Java基础/05_Java基础专题.md/#20) <br>
                                  
-#### <a name="12">[多线程和并发](./Java应届生面试突击/多线程和并发)</a>
+#### <a name="12">多线程和并发</a>
 &ensp;&ensp; ♦ <a name="121">[多线程和并发专题](./Java应届生面试突击/多线程和并发/01_多线程和并发专题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • [1. 什么是缓存一致性问题?如何解决呢?](./Java应届生面试突击/多线程和并发/01_多线程和并发专题.md/#1) <br>
 &ensp;&ensp;&ensp;&ensp; • [2. 简述 volatile 关键字(或 volatile 的内存语义或 volatile 的2个特性)](./Java应届生面试突击/多线程和并发/01_多线程和并发专题.md/#2) <br>
@@ -157,7 +157,7 @@
 &ensp;&ensp;&ensp;&ensp; • [2. Collections.synchronizedXX 方法的原理。](./Java应届生面试突击/多线程和并发/07_其他问题.md/#2) <br>
 &ensp;&ensp;&ensp;&ensp; • [3. 如何在两个线程间共享数据?](./Java应届生面试突击/多线程和并发/07_其他问题.md/#3) <br>
 
-#### <a name="13">[数据库](./Java应届生面试突击/数据库)</a>
+#### <a name="13">数据库</a>
 &ensp;&ensp; ♦ <a name="131">[数据库专题](./Java应届生面试突击/数据库/01_数据库专题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • [1. 优化查询的方法？](./Java应届生面试突击/数据库/01_数据库专题.md/#1) <br>
 &ensp;&ensp;&ensp;&ensp; • [2. 如果有一个特别大的访问量到数据库上，怎么做优化？](./Java应届生面试突击/数据库/01_数据库专题.md/#2) <br>
@@ -222,7 +222,7 @@
 &ensp;&ensp;&ensp;&ensp; • [6. 关系五种基本运算](./Java应届生面试突击/数据库/11_其他问题.md/#6) <br>
 
 
-#### <a name="14">[操作系统](./Java应届生面试突击/操作系统)</a>
+#### <a name="14">操作系统</a>
 &ensp;&ensp; ♦ <a name="141">[操作系统专题](./Java应届生面试突击/操作系统/01_操作系统专题.md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • [1. 进程间的通信方式(IPC)?进程调度方法](./Java应届生面试突击/操作系统/01_操作系统专题.md/#1) <br>
 &ensp;&ensp;&ensp;&ensp; • [2. 线程间的通信方式？](./Java应届生面试突击/操作系统/01_操作系统专题.md/#2) <br>
@@ -244,73 +244,73 @@
 &ensp;&ensp;&ensp;&ensp; • [6. linux下如何检查服务器异常](https://blog.csdn.net/qq_21508727/article/details/83544199) <br>
 &ensp;&ensp;&ensp;&ensp; • [7. linux系统任务的后台运行和关闭、查看后台任务等](https://blog.csdn.net/qq_21508727/article/details/85198912) <br>
 
-#### <a name="15">[计算机网络](./Java应届生面试突击/操作系统/计算机网络.md)</a>
-&ensp;&ensp; ♦ <a name="151">[TCP/IP相关的问题](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • [1. OSI 与 TCP/IP 各层的结构与功能,都有哪些协议,协议所占端口号。](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#1)<br>
-&ensp;&ensp;&ensp;&ensp; • [2. IP 地址的分类。](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#2)<br>
-&ensp;&ensp;&ensp;&ensp; • [3. 画出三次握手和四次挥手的图(状态转移图)。TCP 为什么三次握手,四次挥手?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#3)<br>
-&ensp;&ensp;&ensp;&ensp; • [4. 为什么收到 Server 端的确认之后,Client 还需要进行第三次“握手”呢?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#4)<br>
-&ensp;&ensp;&ensp;&ensp; • [5. 为什么要 4 次挥手?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#5)<br>
-&ensp;&ensp;&ensp;&ensp; • [6. 建立连接的第二个 syn 作用是啥? time_wait 状态产生的原因?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#6)<br>
-&ensp;&ensp;&ensp;&ensp; • [7. 如果网络连接中出现大量 TIME_WAIT 状态所带来的危害?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#7)<br>
-&ensp;&ensp;&ensp;&ensp; • [8. 如何消除大量 TCP 短连接引发的 TIME_WAIT?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#8)<br>
-&ensp;&ensp;&ensp;&ensp; • [9. TIME_WAIT 的时间? 当关闭连接时最后一个 ACK 丢失怎么办?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#9)<br>
-&ensp;&ensp;&ensp;&ensp; • [10. TCP如何保证可靠传输?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#10)<br>
-&ensp;&ensp;&ensp;&ensp; • [11. TCP 建立连接之后怎么保持连接(检测连接断没断)?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#11)<br>
-&ensp;&ensp;&ensp;&ensp; • [12. TCP 三次握手有哪些漏洞?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#12)<br>
-&ensp;&ensp;&ensp;&ensp; • [13. TCP 存在的缺陷有哪些?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#13)<br>
-&ensp;&ensp;&ensp;&ensp; • [14. 三次握手与 accept()函数的关系?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#14)<br>
-&ensp;&ensp;&ensp;&ensp; • [15. 在三次握手和四次挥手协议中,客户端和服务器端各用到什么函数(这里涉及到底层的 socket 知识)。](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#15)<br>
-&ensp;&ensp;&ensp;&ensp; • [16. listen 的真正目的?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#16)<br>
-&ensp;&ensp;&ensp;&ensp; • [17. 如果客户端发起握手请求,服务端无法立刻建立连接应该回应什么?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#17)<br>
-&ensp;&ensp;&ensp;&ensp; • [18. TCP 与 UDP 的区别(或各自的优缺点),以及各自的用途和使用领域。](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#18)<br>
-&ensp;&ensp;&ensp;&ensp; • [19. 为什么 TCP 比 UDP 安全,但是还有很多用 UDP?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#19)<br>
-&ensp;&ensp;&ensp;&ensp; • [20. UDP 为何快?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#20)<br>
-&ensp;&ensp;&ensp;&ensp; • [21. TCP 如何实现流量控制和拥塞控制。tcp 是怎么做错误处理的?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#21)<br>
-&ensp;&ensp;&ensp;&ensp; • [22. TCP 滑动窗口协议,窗口过大或过小有什么影响?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#22)<br>
-&ensp;&ensp;&ensp;&ensp; • [23. 在流量控制的过程中,必须考虑传输效率。](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#23)<br>
-&ensp;&ensp;&ensp;&ensp; • [24. 说下 TCP 的黏包 ?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#24)<br>
-&ensp;&ensp;&ensp;&ensp; • [25. TCP 头部有哪些字段?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#25)<br>
-&ensp;&ensp;&ensp;&ensp; • [26. UDP 的首部多长,具体包含哪些字段?](./Java应届生面试突击/操作系统/TCP_IP相关的问题.md/#26)<br>
+#### <a name="15">计算机网络</a>
+&ensp;&ensp; ♦ <a name="151">[TCP/IP相关的问题](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [1. OSI 与 TCP/IP 各层的结构与功能,都有哪些协议,协议所占端口号。](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#1)<br>
+&ensp;&ensp;&ensp;&ensp; • [2. IP 地址的分类。](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#2)<br>
+&ensp;&ensp;&ensp;&ensp; • [3. 画出三次握手和四次挥手的图(状态转移图)。TCP 为什么三次握手,四次挥手?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#3)<br>
+&ensp;&ensp;&ensp;&ensp; • [4. 为什么收到 Server 端的确认之后,Client 还需要进行第三次“握手”呢?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#4)<br>
+&ensp;&ensp;&ensp;&ensp; • [5. 为什么要 4 次挥手?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#5)<br>
+&ensp;&ensp;&ensp;&ensp; • [6. 建立连接的第二个 syn 作用是啥? time_wait 状态产生的原因?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#6)<br>
+&ensp;&ensp;&ensp;&ensp; • [7. 如果网络连接中出现大量 TIME_WAIT 状态所带来的危害?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#7)<br>
+&ensp;&ensp;&ensp;&ensp; • [8. 如何消除大量 TCP 短连接引发的 TIME_WAIT?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#8)<br>
+&ensp;&ensp;&ensp;&ensp; • [9. TIME_WAIT 的时间? 当关闭连接时最后一个 ACK 丢失怎么办?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#9)<br>
+&ensp;&ensp;&ensp;&ensp; • [10. TCP如何保证可靠传输?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#10)<br>
+&ensp;&ensp;&ensp;&ensp; • [11. TCP 建立连接之后怎么保持连接(检测连接断没断)?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#11)<br>
+&ensp;&ensp;&ensp;&ensp; • [12. TCP 三次握手有哪些漏洞?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#12)<br>
+&ensp;&ensp;&ensp;&ensp; • [13. TCP 存在的缺陷有哪些?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#13)<br>
+&ensp;&ensp;&ensp;&ensp; • [14. 三次握手与 accept()函数的关系?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#14)<br>
+&ensp;&ensp;&ensp;&ensp; • [15. 在三次握手和四次挥手协议中,客户端和服务器端各用到什么函数(这里涉及到底层的 socket 知识)。](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#15)<br>
+&ensp;&ensp;&ensp;&ensp; • [16. listen 的真正目的?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#16)<br>
+&ensp;&ensp;&ensp;&ensp; • [17. 如果客户端发起握手请求,服务端无法立刻建立连接应该回应什么?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#17)<br>
+&ensp;&ensp;&ensp;&ensp; • [18. TCP 与 UDP 的区别(或各自的优缺点),以及各自的用途和使用领域。](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#18)<br>
+&ensp;&ensp;&ensp;&ensp; • [19. 为什么 TCP 比 UDP 安全,但是还有很多用 UDP?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#19)<br>
+&ensp;&ensp;&ensp;&ensp; • [20. UDP 为何快?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#20)<br>
+&ensp;&ensp;&ensp;&ensp; • [21. TCP 如何实现流量控制和拥塞控制。tcp 是怎么做错误处理的?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#21)<br>
+&ensp;&ensp;&ensp;&ensp; • [22. TCP 滑动窗口协议,窗口过大或过小有什么影响?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#22)<br>
+&ensp;&ensp;&ensp;&ensp; • [23. 在流量控制的过程中,必须考虑传输效率。](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#23)<br>
+&ensp;&ensp;&ensp;&ensp; • [24. 说下 TCP 的黏包 ?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#24)<br>
+&ensp;&ensp;&ensp;&ensp; • [25. TCP 头部有哪些字段?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#25)<br>
+&ensp;&ensp;&ensp;&ensp; • [26. UDP 的首部多长,具体包含哪些字段?](./Java应届生面试突击/计算机网络/01_TCP_IP相关的问题.md/#26)<br>
 
 
-&ensp;&ensp; ♦ <a name="152">[HTTP协议相关的问题](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • [1. Http 的请求报文结构和响应报文结构。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#1)<br>
-&ensp;&ensp;&ensp;&ensp; • [2. 常见 HTTP 首部字段。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#2)<br>
-&ensp;&ensp;&ensp;&ensp; • [3. Http 状态码含义。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#3)<br>
-&ensp;&ensp;&ensp;&ensp; • [4. http 中有关缓存的首部字段有哪些?http 的浏览器缓存机制。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#4)<br>
-&ensp;&ensp;&ensp;&ensp; • [5. Http1.1 和 Http1.0 的区别。(HTTP1.1 版本的 4 个新特性)](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#5)<br>
-&ensp;&ensp;&ensp;&ensp; • [6. 常用的 HTTP 方法有哪些?](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#6)<br>
-&ensp;&ensp;&ensp;&ensp; • [7. http 的请求方式 get 和 post 的区别。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#7)<br>
-&ensp;&ensp;&ensp;&ensp; • [8. 为什么 HTTP 是无状态的?如何保持状态(会话跟踪技术、状态管理)?](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#8)<br>
-&ensp;&ensp;&ensp;&ensp; • [9. Http 的短连接和长连接的原理。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#9)<br>
-&ensp;&ensp;&ensp;&ensp; • [10. HTTP 的特点。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#10)<br>
-&ensp;&ensp;&ensp;&ensp; • [11. http 的安全问题。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#11)<br>
-&ensp;&ensp;&ensp;&ensp; • [12. Https 的作用。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#12)<br>
-&ensp;&ensp;&ensp;&ensp; • [13. 浏览器和服务器在基于 https 进行请求链接到数据传输过程中,用到了哪些技术?](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#13)<br>
-&ensp;&ensp;&ensp;&ensp; • [14. 讲下 Http 协议。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#14)<br>
-&ensp;&ensp;&ensp;&ensp; • [15. http 和 socket 的区别,两个协议哪个更高效一点。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#15)<br>
-&ensp;&ensp;&ensp;&ensp; • [16. HTTP 与 HTTPS 的区别。](./Java应届生面试突击/操作系统/HTTP协议相关的问题.md/#16)<br>
+&ensp;&ensp; ♦ <a name="152">[HTTP协议相关的问题](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [1. Http 的请求报文结构和响应报文结构。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#1)<br>
+&ensp;&ensp;&ensp;&ensp; • [2. 常见 HTTP 首部字段。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#2)<br>
+&ensp;&ensp;&ensp;&ensp; • [3. Http 状态码含义。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#3)<br>
+&ensp;&ensp;&ensp;&ensp; • [4. http 中有关缓存的首部字段有哪些?http 的浏览器缓存机制。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#4)<br>
+&ensp;&ensp;&ensp;&ensp; • [5. Http1.1 和 Http1.0 的区别。(HTTP1.1 版本的 4 个新特性)](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#5)<br>
+&ensp;&ensp;&ensp;&ensp; • [6. 常用的 HTTP 方法有哪些?](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#6)<br>
+&ensp;&ensp;&ensp;&ensp; • [7. http 的请求方式 get 和 post 的区别。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#7)<br>
+&ensp;&ensp;&ensp;&ensp; • [8. 为什么 HTTP 是无状态的?如何保持状态(会话跟踪技术、状态管理)?](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#8)<br>
+&ensp;&ensp;&ensp;&ensp; • [9. Http 的短连接和长连接的原理。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#9)<br>
+&ensp;&ensp;&ensp;&ensp; • [10. HTTP 的特点。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#10)<br>
+&ensp;&ensp;&ensp;&ensp; • [11. http 的安全问题。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#11)<br>
+&ensp;&ensp;&ensp;&ensp; • [12. Https 的作用。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#12)<br>
+&ensp;&ensp;&ensp;&ensp; • [13. 浏览器和服务器在基于 https 进行请求链接到数据传输过程中,用到了哪些技术?](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#13)<br>
+&ensp;&ensp;&ensp;&ensp; • [14. 讲下 Http 协议。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#14)<br>
+&ensp;&ensp;&ensp;&ensp; • [15. http 和 socket 的区别,两个协议哪个更高效一点。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#15)<br>
+&ensp;&ensp;&ensp;&ensp; • [16. HTTP 与 HTTPS 的区别。](./Java应届生面试突击/计算机网络/02_HTTP协议相关的问题.md/#16)<br>
 
-&ensp;&ensp; ♦ <a name="153">[安全相关的问题](./Java应届生面试突击/操作系统/安全相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • [1. 攻击网站的方法和原理。](./Java应届生面试突击/操作系统/安全相关的问题.md/#1)<br>
-&ensp;&ensp;&ensp;&ensp; • [2. 怎么确保数据传输过程中的安全性?](./Java应届生面试突击/操作系统/安全相关的问题.md/#2)<br>
+&ensp;&ensp; ♦ <a name="153">[安全相关的问题](./Java应届生面试突击/计算机网络/03_安全相关的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [1. 攻击网站的方法和原理。](./Java应届生面试突击/计算机网络/03_安全相关的问题.md/#1)<br>
+&ensp;&ensp;&ensp;&ensp; • [2. 怎么确保数据传输过程中的安全性?](./Java应届生面试突击/计算机网络/03_安全相关的问题.md/#2)<br>
 
-&ensp;&ensp; ♦ <a name="154">[Socket编程](./Java应届生面试突击/操作系统/Socket编程.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • [1. socket 编程的基本步骤(TCP/UDP)。](./Java应届生面试突击/操作系统/Socket编程.md/#1)<br>
-&ensp;&ensp;&ensp;&ensp; • [2. Socket 通信模型。](./Java应届生面试突击/操作系统/Socket编程.md/#2)<br>
-&ensp;&ensp;&ensp;&ensp; • [3. Socket I/O模型。](./Java应届生面试突击/操作系统/Socket编程.md/#3)<br>
+&ensp;&ensp; ♦ <a name="154">[Socket编程](./Java应届生面试突击/计算机网络/04_Socket编程.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [1. socket 编程的基本步骤(TCP/UDP)。](./Java应届生面试突击/计算机网络/04_Socket编程.md/#1)<br>
+&ensp;&ensp;&ensp;&ensp; • [2. Socket 通信模型。](./Java应届生面试突击/计算机网络/04_Socket编程.md/#2)<br>
+&ensp;&ensp;&ensp;&ensp; • [3. Socket I/O模型。](./Java应届生面试突击/计算机网络/04_Socket编程.md/#3)<br>
 
-&ensp;&ensp; ♦ <a name="155">[其他相关的问题](./Java应届生面试突击/操作系统/其他相关的问题.md)</a> <br>
-&ensp;&ensp;&ensp;&ensp; • [1. Session 原理。](./Java应届生面试突击/操作系统/其他相关的问题.md/#1)<br>
-&ensp;&ensp;&ensp;&ensp; • [2. Cookie 的机制。](./Java应届生面试突击/操作系统/其他相关的问题.md/#2)<br>
-&ensp;&ensp;&ensp;&ensp; • [3. Cookie 被浏览器禁用怎么办?](./Java应届生面试突击/操作系统/其他相关的问题.md/#3)<br>
-&ensp;&ensp;&ensp;&ensp; • [4. Cookie 和 Session 原理解析。](./Java应届生面试突击/操作系统/其他相关的问题.md/#4)<br>
-&ensp;&ensp;&ensp;&ensp; • [5. Cookie 与 Session 的区别。](./Java应届生面试突击/操作系统/其他相关的问题.md/#5)<br>
-&ensp;&ensp;&ensp;&ensp; • [6. session 和 cache 的区别。](./Java应届生面试突击/操作系统/其他相关的问题.md/#6)<br>
-&ensp;&ensp;&ensp;&ensp; • [7. 如果有几千个 session,怎么提高效率 。当 session 访问量比较大的时候,怎么解决?](./Java应届生面试突击/操作系统/其他相关的问题.md/#7)<br>
-&ensp;&ensp;&ensp;&ensp; • [8. 在浏览器中输入 URL 后,执行的全部过程。会用到哪些协议?(一次完整的 http 请求过程)。](./Java应届生面试突击/操作系统/其他相关的问题.md/#8)<br>
-&ensp;&ensp;&ensp;&ensp; • [9. 路由器与交换机的区别是什么?](./Java应届生面试突击/操作系统/其他相关的问题.md/#9)<br>
+&ensp;&ensp; ♦ <a name="155">[其他相关的问题](./Java应届生面试突击/计算机网络/05_其他相关的问题.md)</a> <br>
+&ensp;&ensp;&ensp;&ensp; • [1. Session 原理。](./Java应届生面试突击/计算机网络/05_其他相关的问题.md/#1)<br>
+&ensp;&ensp;&ensp;&ensp; • [2. Cookie 的机制。](./Java应届生面试突击/计算机网络/05_其他相关的问题.md/#2)<br>
+&ensp;&ensp;&ensp;&ensp; • [3. Cookie 被浏览器禁用怎么办?](./Java应届生面试突击/计算机网络/05_其他相关的问题.md/#3)<br>
+&ensp;&ensp;&ensp;&ensp; • [4. Cookie 和 Session 原理解析。](./Java应届生面试突击/计算机网络/05_其他相关的问题.md/#4)<br>
+&ensp;&ensp;&ensp;&ensp; • [5. Cookie 与 Session 的区别。](./Java应届生面试突击/计算机网络/05_其他相关的问题.md/#5)<br>
+&ensp;&ensp;&ensp;&ensp; • [6. session 和 cache 的区别。](./Java应届生面试突击/计算机网络/05_其他相关的问题.md/#6)<br>
+&ensp;&ensp;&ensp;&ensp; • [7. 如果有几千个 session,怎么提高效率 。当 session 访问量比较大的时候,怎么解决?](./Java应届生面试突击/计算机网络/05_其他相关的问题.md/#7)<br>
+&ensp;&ensp;&ensp;&ensp; • [8. 在浏览器中输入 URL 后,执行的全部过程。会用到哪些协议?(一次完整的 http 请求过程)。](./Java应届生面试突击/计算机网络/05_其他相关的问题.md/#8)<br>
+&ensp;&ensp;&ensp;&ensp; • [9. 路由器与交换机的区别是什么?](./Java应届生面试突击/计算机网络/05_其他相关的问题.md/#9)<br>
 
 &ensp;&ensp; ♦ <a name="156">[计算机网络专题（补1）](./Java应届生面试突击/计算机网络/06_计算机网络专题(补1).md)</a> <br>
 &ensp;&ensp;&ensp;&ensp; • [1. NAT 地址转换。](./Java应届生面试突击/计算机网络/06_计算机网络专题(补1).md/#1)<br>
