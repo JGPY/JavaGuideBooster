@@ -6,14 +6,14 @@
 <a href="#1">1. String 中的”+”操作是怎么回事?</a> <br>
 <a href="#2">2. StringBuilder和StringBuffer 底层是怎么实现的。</a> <br>
 <a href="#3">3. String 类中常用的方法。</a> <br>
-<a href="#4">4. 创建虚引用的时候,构造方法传入一个 ReferenceQueue,作用是什么。</a> <br>
+<a href="#4">4. 创建虚引用的时候, 构造方法传入一个 ReferenceQueue, 作用是什么。</a> <br>
 <a href="#5">5. 栈溢出的原因和解决方法。</a> <br>
 <a href="#6">6. HashMap的加载因子的作用。</a> <br>
 <a href="#7">7. HashMap中的 key 可以是任意对象吗?(Set 中元素的内容可以改变吗?)</a> <br>
-<a href="#8">8. 如果你定义一个类,包括学号,姓名,分数,如何把这个对象作为 key?</a> <br>
+<a href="#8">8. 如果你定义一个类,包括学号, 姓名, 分数, 如何把这个对象作为 key?</a> <br>
 <a href="#9">9. Java是如何实现跨平台的。</a> <br>
 <a href="#10">10. 什么是泛型,为什么要使用以及类型擦除。</a> <br>
-<a href="#11">11. Java中的 NIO,BIO 分别是什么。NIO 主要用来解决什么问题。</a> <br>
+<a href="#11">11. Java中的 NIO, BIO 分别是什么。NIO 主要用来解决什么问题。</a> <br>
 <a href="#12">12. 面向对象的 6 个基本原则(设计模式的 6 个基本原则)。</a> <br>
 <a href="#13">13. JDK 源码中用到的设计模式 。</a> <br>
 <a href="#14">14. 执行 Student s = new Student();在内存中做了哪些事情?</a> <br>
@@ -46,16 +46,13 @@ java 中 String 的+运算符编译后其实是转换成了这样的代码:
 
 #### 情况 2:
 一个特殊的例子: <br>
-    String str = “This is only a” + “ simple” + “ test”;//“+”连接的都是字符串常量
-    StringBuffer builder = new StringBuilder(“This is only a”).append(“ simple”).appe
-nd(“ test”);
-    你会很惊讶的发现,生成 str 对象的速度简直太快了,而这个时候 StringBuffer 居
-然速度上根本一点都不占优势。其实这是 JVM 的一个把戏,实际上: <br>
+    String str = “This is only a” + “ simple” + “ test”;//“+”连接的都是字符串常量 <br>
+    StringBuffer builder = new StringBuilder(“This is only a”).append(“ simple”).append(“ test”); <br>
+    你会很惊讶的发现,生成 str 对象的速度简直太快了,而这个时候 StringBuffer 居然速度上根本一点都不占优势。其实这是 JVM 的一个把戏,实际上: <br>
     String str = “This is only a” + “ simple” + “test”; <br>
     其实就是: <br>
     String str = “This is only a simple test”; <br>
-    所以不需要太多的时间。但大家这里要注意的是,如果你的字符串是来自另外的
-String 对象的话,速度就没那么快了,譬如: <br>
+    所以不需要太多的时间。但大家这里要注意的是,如果你的字符串是来自另外的String 对象的话,速度就没那么快了,譬如: <br>
     String str2 = “This is only a”; <br>
     String str3 = “ simple”; <br>
     String str4 = “ test”; <br>
@@ -77,8 +74,8 @@ char[]中的。
 2. intern() :返回字符串对象的规范化表示形式。
 3. isEmpty() :当且仅当 length() 为 0 时返回 true。
 4. length() :返回此字符串的长度。
-5. substring(int beginIndex) :返回一个新的字符串,它是此字符串的一个
-子字符串。  <br>
+5. substring(int beginIndex) :返回一个新的字符串,它是此字符串的一个子字符串。  <br>
+&ensp;&ensp;&ensp;&ensp;
     substring(int beginIndex, int endIndex) :返回一个新字符串,它是此字
 符串的一个子字符串。
 6. toLowerCase() :将此 String 中的所有字符都转换为小写。
@@ -101,13 +98,13 @@ toUpperCase():将此 String 中的所有字符都转换为大写。
 原因: <br>
 (1)大量的递归调用,在不断的压栈过程中,造成栈容量超过而导致溢出。 <br>
 (2)由于分配了过大的局部变量。 <br>
-
 **解决方法:**
 (1)用栈把递归转换成非递归。 <br>
 (2)使用静态对象替代非静态局部对象。 <br>
-在递归函数设计中,可以使用静态对象替代非静态局部对象(即栈对象),
+&ensp;&ensp;&ensp;&ensp;
+    在递归函数设计中,可以使用静态对象替代非静态局部对象(即栈对象),
 这不仅可以减少每次递归调用和返回时产生和释放非静态对象的开销,而且静
-态对象还可以保存递归调用的中间状态,并且可为各个调用层所访问。
+态对象还可以保存递归调用的中间状态,并且可为各个调用层所访问。 <br>
 (3)增加堆栈的大小 <br>
 
 
@@ -385,3 +382,11 @@ XML 进行读取,而不能在文件中插入数据。 <br>
 档开始执行遍历的,并且只能遍历一次。也就是说不能随机访问 XML 文件,只
 能从头到尾的将 XML 文件遍历一次,但可以随时停止解析。 <br>
 
+
+---
+### 搬运工信息
+Author:Jason Lou <br>
+Email:vip.iotworld@gmail.com <br>
+Blog:https://blog.csdn.net/qq_21508727 <br>
+Github:https://github.com/JGPY/JavaGuideBooster <br>
+---

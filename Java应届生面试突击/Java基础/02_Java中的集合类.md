@@ -20,7 +20,7 @@
 &ensp;&ensp;&ensp;&ensp; 
     ArrayList 不具有线程安全性,用在单线程环境中。LinkedList 也是线程不安全的,**如
 果在并发环境下使用它们**, 可 以 用 Colletions 类 中 的 静 态 方 法 **synchronizedList()** 对
-ArrayList 和 LinkedList 进行调用即可。
+ArrayList 和 LinkedList 进行调用即可。<br>
 &ensp;&ensp;&ensp;&ensp; 
     **Vector 是线程安全的**,即它的大部分方法都包含有关键字 synchronized。Vector 的效
 率没有 ArrayList 和 LinkedList 高。
@@ -112,7 +112,7 @@ Vector 或 ArrayList 都可以。如果是对其它**指定位置的插入、删
 &ensp;&ensp;&ensp;&ensp;    
     再哈希,其目的是为了减少哈希冲突,使元素能够均匀的分布在数组上,从而提高数
 组的存取效率。 <br>
-**扩展:为何数组的长度是 2 的 n 次方呢?**
+**扩展:为何数组的长度是 2 的 n 次方呢?** <br>
 &ensp;&ensp;&ensp;&ensp;
     1. 这 个 方 法 非 常 巧 妙 , 它 通 过 h & (table.length -1) 来 得 到 该 对 象 的 保 存 位 , 而
 HashMap 底层**数组的长度总是 2 的 n 次方**,2 n -1 得到的二进制数的每个位上的值都为 1,
@@ -298,16 +298,15 @@ k , V v, HashEntry next) 来创建的。如果另一个线程刚好 new 这个�
     注意:由于只能在表头插入,所以链表中节点的顺序和插入的顺序相反。 <br>
     **3.remove(Object key)的实现** <br>
 &ensp;&ensp;&ensp;&ensp;
-    下面来分析 remove 操作,先让我们来看看 remove 操作的源代码实现。 <br> 
+    下面来分析 remove 操作,先让我们来看看 remove 操作的源代码实现。 <br>
 ![图02_2_15](/data/images/Java应届生面试突击/Java基础/02_2_16.png) <br>
-![图02_2_15](/data/images/Java应届生面试突击/Java基础/02_2_17.png) <br>  
+![图02_2_15](/data/images/Java应届生面试突击/Java基础/02_2_17.png) <br>
 &ensp;&ensp;&ensp;&ensp;  
     首先根据散列码找到具体的链表,然后遍历这个链表找到要删除的节点;
 最后把待删除节点之后的所有节点原样保留在新链表中,把待删除节点之前的
 每个节点克隆到新链表中。下面通过图例来说明 remove 操作。假设写线程执
 行 remove 操作,要删除链表的 C 节点,另一个读线程同时正在遍历这个链
 表。 <br>
- 
 图 4. 执行删除之前的原链表: <br>
 ![图02_2_15](/data/images/Java应届生面试突击/Java基础/02_2_18.png) <br>
 图 5. 执行删除之后的新链表 <br>
@@ -416,14 +415,15 @@ private static final Object PRESENT = new Object(); <br>
     例如:假设存在两个线程(线程 1、线程 2),线程 1 通过 Iterator 在遍历
 集合 A 中的元素,在某个时候线程 2 修改了集合 A 的结构(是结构上面的修改,
 而不是简单的修改集合元素的内容),那么这个时候程序就会抛出
-ConcurrentModificationException 异常,从而产生 fail-fast 机制。
+ConcurrentModificationException 异常,从而产生 fail-fast 机制。<br>
 &ensp;&ensp;&ensp;&ensp;
-    产生的原因:
+    产生的原因:<br>
 &ensp;&ensp;&ensp;&ensp;
     当调用容器的 iterator()方法返回 Iterater 对象时,把容器中包含对象
 的个数赋值给了一个变量 expectedModCount,在调用 next()方法时,会比较
 expectedModCount 与容器中实际对象的个数是否相等,若二者不相等,则会抛
-出 ConcurrentModificationException 异常。
+出 ConcurrentModificationException 异常。<br>
+&ensp;&ensp;&ensp;&ensp;
     如果在遍历集合的同时,需要删除元素的话,可以用 iterator 里面的
 remove()方法删除元素。
 
@@ -444,7 +444,7 @@ List 接口中常用类 <br>
 &ensp;&ensp;&ensp;&ensp;
     LinkedList :线程不安全。增删速度快。底层数据结构是链表 <br>
     
-Set(集)元素无序的、不可重复。
+Set(集)元素无序的、不可重复。<br>
 &ensp;&ensp;&ensp;&ensp;
     取出元素的方法只有迭代器。不可以存放重复元素,元素存取是无序的。因此存入
 Set 中的每个对象都必须重写 equals()和 hashCode()方法来确保对象的唯一性。
@@ -475,3 +475,12 @@ key 时,需要重新改写该对象的 equals()和 hashCode()方法来确保 key
 Collections 是针对集合类的一个帮助类,*提供了操作集合的工具方法*:一系列**静态方法**
 实现对各种集合的**搜索、排序、线程安全化**等操作。
 
+
+
+---
+### 搬运工信息
+Author:Jason Lou <br>
+Email:vip.iotworld@gmail.com <br>
+Blog:https://blog.csdn.net/qq_21508727 <br>
+Github:https://github.com/JGPY/JavaGuideBooster <br>
+---
