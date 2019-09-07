@@ -120,8 +120,8 @@
 ---
 
 #### <a name="22">《剑指offer》_66</a>
-* 电子书阅览:[剑指offer.PDF](data/books/算法/剑指Offer名企面试官精讲典型编程题_第2版.pdf)　<br>
-* 配套源码:[《剑指Offer》第二版源代码](https://github.com/zhedahht/CodingInterviewChinese2)
+* 电子书阅览：[剑指offer.PDF](data/books/算法/剑指Offer名企面试官精讲典型编程题_第2版.pdf)　<br>
+* 配套源码：[《剑指Offer》第二版源代码](https://github.com/zhedahht/CodingInterviewChinese2)
 * 刷题平台：[牛客平台](https://www.nowcoder.com/ta/coding-interviews?query=&asc=true&order=&page=1)
 
 &ensp;&ensp; ♦ <a name="221">链表(8道)</a> <br>
@@ -223,9 +223,109 @@
 
 
 #### <a name="23">LeetCode_Top100</a>
-&ensp;&ensp;&ensp;&ensp; • [整理中]()<br>
-&ensp;&ensp;&ensp;&ensp; • []()<br>
-&ensp;&ensp;&ensp;&ensp; • []()<br>
+* LeetCode：[LeetCode_algorithms](https://leetcode.com/problemset/algorithms/)　<br>
+* 力扣中文社区：[力扣_算法](https://leetcode-cn.com/problemset/algorithms/)　<br>
+
+&ensp;&ensp;&ensp;&ensp; • 001：[两数之和](./Java应届生算法突击/LeetCode_Top100/001.两数之和.md)<br>
+&ensp;&ensp;&ensp;&ensp; • 002：[两数相加](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 003：[无重复字符的最长子串](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 004：[寻找两个有序数组的中位数](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 005：[最长回文子串](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 006：[Z 字形变换](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 007：[整数反转 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 008：[字符串转换整数 (atoi)](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 009：[回文数](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 010：[正则表达式匹配](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 011：[盛最多水的容器](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 012：[整数转罗马数字 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 013：[罗马数字转整数 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 014：[最长公共前缀](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 015：[三数之和](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 016：[最接近的三数之和](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 017：[电话号码的字母组合](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 018：[四数之和](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 019：[删除链表的倒数第N个节点](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 020：[有效的括号](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 021：[合并两个有序链表 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 022：[括号生成 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 023：[合并K个排序链表](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 024：[两两交换链表中的节点](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 025：[K 个一组翻转链表](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 026：[删除排序数组中的重复项](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 027：[移除元素](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 028：[实现 strStr()](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 029：[两数相除](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 030：[串联所有单词的子串](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 031：[下一个排列](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 032：[最长有效括号 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 033：[搜索旋转排序数组](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 034：[在排序数组中查找元素的第一个和最后一个位置](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 035：[搜索插入位置](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 036：[有效的数独](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 037：[解数独](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 038：[报数](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 039：[组合总和](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 040：[组合总和 II](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 041：[缺失的第一个正数 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 042：[接雨水](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 043：[字符串相乘](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 044：[通配符匹配](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 045：[跳跃游戏 II](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 046：[全排列](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 047：[全排列 II](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 048：[旋转图像](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 049：[字母异位词分组](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 050：[Pow(x, n) ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 051：[N皇后](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 052：[N皇后 II ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 053：[最大子序和](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 054：[螺旋矩阵](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 055：[跳跃游戏](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 056：[合并区间](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 057：[插入区间](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 058：[最后一个单词的长度](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 059：[螺旋矩阵 II ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 060：[第k个排列](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 061：[旋转链表 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 062：[不同路径](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 063：[不同路径 II ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 064：[最小路径和 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 065：[有效数字](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 066：[加一](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 067：[二进制求和](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 068：[文本左右对齐 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 069：[x 的平方根 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 070：[爬楼梯](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 071：[简化路径](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 072：[编辑距离](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 073：[矩阵置零 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 074：[搜索二维矩阵 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 075：[颜色分类 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 076：[最小覆盖子串](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 077：[组合](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 078：[子集 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 079：[单词搜索 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 080：[删除排序数组中的重复项 II](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 081：[搜索旋转排序数组 II](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 082：[删除排序链表中的重复元素 II ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 083：[删除排序链表中的重复元素](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 084：[柱状图中最大的矩形 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 085：[最大矩形](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 086：[分隔链表](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 087：[扰乱字符串 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 088：[合并两个有序数组](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 089：[格雷编码](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 090：[子集 II ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 091：[解码方法](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 092：[反转链表 II ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 093：[复原IP地址](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 094：[二叉树的中序遍历](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 095：[不同的二叉搜索树 II](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 096：[不同的二叉搜索树 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 097：[交错字符串 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 098：[验证二叉搜索树](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 099：[恢复二叉搜索树 ](./Java应届生算法突击/LeetCode_Top100/)<br>
+&ensp;&ensp;&ensp;&ensp; • 100：[相同的树](./Java应届生算法突击/LeetCode_Top100/)<br>
 
 
 
