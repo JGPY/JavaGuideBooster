@@ -108,7 +108,7 @@
 &ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#229">其他(15道)</a> <br>
 
 &ensp;&ensp;  <a href="./Java应届生算法突击_目录.md/#23">IV LeetCode_Top100</a> <br> 
-&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#231">整理中...</a> <br>
+&ensp;&ensp;&ensp;&ensp; ♦ <a href="./Java应届生算法突击_目录.md#23">001~100</a> <br>
 
 ---
 
